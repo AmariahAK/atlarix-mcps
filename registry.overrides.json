@@ -1,0 +1,337 @@
+{
+  "mcps": {
+    "github": {
+      "name": "GitHub",
+      "description": "Search repos, read files, manage issues and pull requests",
+      "icon": "github",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github",
+      "installUrl": "npx -y @modelcontextprotocol/server-github",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "label": "GitHub Personal Access Token",
+          "url": "https://github.com/settings/tokens"
+        }
+      ],
+      "tags": ["git", "code", "issues"],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false
+    },
+    "filesystem": {
+      "name": "Filesystem",
+      "description": "Read and write files on your local machine",
+      "icon": "folder",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+      "installUrl": "npx -y @modelcontextprotocol/server-filesystem",
+      "authType": "none",
+      "envVars": [],
+      "tags": ["files", "local"],
+      "tier": "free"
+    },
+    "postgres": {
+      "name": "PostgreSQL",
+      "description": "Query and inspect PostgreSQL databases",
+      "icon": "database",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres",
+      "installUrl": "npx -y @modelcontextprotocol/server-postgres",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "POSTGRES_CONNECTION_STRING",
+          "label": "PostgreSQL connection string"
+        }
+      ],
+      "tags": ["database", "sql"],
+      "tier": "free"
+    },
+    "slack": {
+      "name": "Slack",
+      "description": "Read channels and messages, post to Slack",
+      "icon": "slack",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
+      "installUrl": "npx -y @modelcontextprotocol/server-slack",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "SLACK_BOT_TOKEN",
+          "label": "Slack Bot Token",
+          "url": "https://api.slack.com/apps"
+        },
+        { "key": "SLACK_TEAM_ID", "label": "Slack Team ID" }
+      ],
+      "tags": ["communication", "team"],
+      "tier": "free"
+    },
+    "brave-search": {
+      "name": "Brave Search",
+      "description": "Web and local search via Brave Search API",
+      "icon": "search",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
+      "installUrl": "npx -y @modelcontextprotocol/server-brave-search",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "BRAVE_API_KEY",
+          "label": "Brave API Key",
+          "url": "https://brave.com/search/api/"
+        }
+      ],
+      "tags": ["web", "search"],
+      "tier": "free"
+    },
+    "sqlite": {
+      "name": "SQLite",
+      "description": "Query local SQLite databases",
+      "icon": "database",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
+      "installUrl": "npx -y @modelcontextprotocol/server-sqlite",
+      "authType": "env",
+      "envVars": [
+        { "key": "SQLITE_DB_PATH", "label": "Path to SQLite database file" }
+      ],
+      "tags": ["database", "local"],
+      "tier": "free"
+    },
+    "memory": {
+      "name": "Memory",
+      "description": "Persistent memory across sessions using a knowledge graph",
+      "icon": "brain",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+      "installUrl": "npx -y @modelcontextprotocol/server-memory",
+      "authType": "none",
+      "envVars": [],
+      "tags": ["memory", "knowledge"],
+      "tier": "free"
+    },
+    "puppeteer": {
+      "name": "Puppeteer",
+      "description": "Browser automation — navigate pages, click, screenshot, scrape",
+      "icon": "browser",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
+      "installUrl": "npx -y @modelcontextprotocol/server-puppeteer",
+      "authType": "none",
+      "envVars": [],
+      "tags": ["browser", "automation", "scraping"],
+      "tier": "free"
+    },
+    "sentry": {
+      "name": "Sentry",
+      "description": "Read Sentry errors, issues, and event details",
+      "icon": "sentry",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry",
+      "installUrl": "npx -y @modelcontextprotocol/server-sentry",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "SENTRY_AUTH_TOKEN",
+          "label": "Sentry Auth Token",
+          "url": "https://sentry.io/settings/account/api/auth-tokens/"
+        },
+        { "key": "SENTRY_ORG", "label": "Sentry Organization slug" }
+      ],
+      "tags": ["monitoring", "errors"],
+      "tier": "free"
+    },
+    "aws-kb-retrieval-server": {
+      "name": "AWS Knowledge Base",
+      "description": "Retrieve documents from AWS Bedrock Knowledge Bases",
+      "icon": "aws",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server",
+      "installUrl": "npx -y @modelcontextprotocol/server-aws-kb-retrieval",
+      "authType": "env",
+      "envVars": [
+        { "key": "AWS_ACCESS_KEY_ID", "label": "AWS Access Key ID" },
+        { "key": "AWS_SECRET_ACCESS_KEY", "label": "AWS Secret Access Key" },
+        { "key": "AWS_REGION", "label": "AWS Region" }
+      ],
+      "tags": ["aws", "knowledge", "rag"],
+      "tier": "free"
+    },
+    "google-maps": {
+      "name": "Google Maps",
+      "description": "Places search, directions, and geocoding via Google Maps",
+      "icon": "maps",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps",
+      "installUrl": "npx -y @modelcontextprotocol/server-google-maps",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "GOOGLE_MAPS_API_KEY",
+          "label": "Google Maps API Key",
+          "url": "https://console.cloud.google.com/apis/credentials"
+        }
+      ],
+      "tags": ["maps", "location"],
+      "tier": "free"
+    },
+    "redis": {
+      "name": "Redis",
+      "description": "Read and write Redis keys and data structures",
+      "icon": "database",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis",
+      "installUrl": "npx -y @modelcontextprotocol/server-redis",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "REDIS_URL",
+          "label": "Redis connection URL (e.g. redis://localhost:6379)"
+        }
+      ],
+      "tags": ["database", "cache"],
+      "tier": "free"
+    },
+    "linear": {
+      "id": "linear",
+      "name": "Linear",
+      "description": "Read and create issues in Linear",
+      "icon": "linear",
+      "source": "https://github.com/linear/linear/tree/master/packages/mcp",
+      "installUrl": "npx -y @linear/mcp-server",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "LINEAR_API_KEY",
+          "label": "Linear API Key",
+          "url": "https://linear.app/settings/api"
+        }
+      ],
+      "tags": ["issues", "project-management"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": false
+    },
+    "notion": {
+      "id": "notion",
+      "name": "Notion",
+      "description": "Read and write Notion pages and databases",
+      "icon": "notion",
+      "source": "https://github.com/makenotion/notion-mcp-server",
+      "installUrl": "npx -y @notionhq/notion-mcp-server",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "NOTION_API_KEY",
+          "label": "Notion Integration Token",
+          "url": "https://www.notion.so/my-integrations"
+        }
+      ],
+      "tags": ["notes", "docs", "knowledge"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": false
+    },
+    "jira": {
+      "id": "jira",
+      "name": "Jira",
+      "description": "Read and create Jira issues and projects",
+      "icon": "jira",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-jira",
+      "authType": "env",
+      "envVars": [
+        { "key": "JIRA_HOST", "label": "Jira host (e.g. yourorg.atlassian.net)" },
+        { "key": "JIRA_EMAIL", "label": "Jira account email" },
+        {
+          "key": "JIRA_API_TOKEN",
+          "label": "Jira API Token",
+          "url": "https://id.atlassian.com/manage-profile/security/api-tokens"
+        }
+      ],
+      "tags": ["issues", "project-management"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    "docker": {
+      "id": "docker",
+      "name": "Docker",
+      "description": "Manage Docker containers, images, and volumes",
+      "icon": "docker",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-docker",
+      "authType": "none",
+      "envVars": [],
+      "tags": ["devops", "containers"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    "vercel": {
+      "id": "vercel",
+      "name": "Vercel",
+      "description": "Manage Vercel deployments, projects, and domains",
+      "icon": "vercel",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y @vercel/mcp-adapter",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "VERCEL_TOKEN",
+          "label": "Vercel API Token",
+          "url": "https://vercel.com/account/tokens"
+        }
+      ],
+      "tags": ["deployment", "hosting"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    "supabase": {
+      "id": "supabase",
+      "name": "Supabase",
+      "description": "Query Supabase tables and manage your project",
+      "icon": "database",
+      "source": "https://github.com/supabase-community/supabase-mcp",
+      "installUrl": "npx -y @supabase/mcp-server-supabase",
+      "authType": "env",
+      "envVars": [
+        { "key": "SUPABASE_URL", "label": "Supabase project URL" },
+        { "key": "SUPABASE_SERVICE_ROLE_KEY", "label": "Supabase service role key" }
+      ],
+      "tags": ["database", "backend"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": false
+    },
+    "stripe": {
+      "id": "stripe",
+      "name": "Stripe",
+      "description": "Read Stripe payments, customers, and subscriptions",
+      "icon": "stripe",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-stripe",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "STRIPE_SECRET_KEY",
+          "label": "Stripe Secret Key",
+          "url": "https://dashboard.stripe.com/apikeys"
+        }
+      ],
+      "tags": ["payments", "billing"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    "cloudwatch": {
+      "id": "cloudwatch",
+      "name": "AWS CloudWatch",
+      "description": "Read CloudWatch logs, metrics, and alarms",
+      "icon": "aws",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-cloudwatch",
+      "authType": "env",
+      "envVars": [
+        { "key": "AWS_ACCESS_KEY_ID", "label": "AWS Access Key ID" },
+        { "key": "AWS_SECRET_ACCESS_KEY", "label": "AWS Secret Access Key" },
+        { "key": "AWS_REGION", "label": "AWS Region" }
+      ],
+      "tags": ["aws", "monitoring", "logs"],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    }
+  }
+}

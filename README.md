@@ -1,45 +1,50 @@
 # atlarix-mcps
 
-The official MCP server registry for [Atlarix](https://github.com/AmariahAK/atlarix).
+Public MCP registry for the [Atlarix](https://github.com/AmariahAK/Atlarix) MCP marketplace. This repo does **not** ship server code; it publishes a single JSON index Atlarix fetches over HTTPS.
 
-This repo is a curated index of free, open-source MCP servers that work out of the box with Atlarix's MCP marketplace. We don't build or maintain the servers — we just point to them.
+## Consumed URL (Atlarix default)
 
-## Sources
+Atlarix loads this raw file (schema: `McpRegistryIndex` — `version` + `mcps` array, each entry uses **`installUrl`**, not `installCommand`):
 
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — official reference implementations by Anthropic (MIT)
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — community-maintained list
+https://raw.githubusercontent.com/AmariahAK/atlarix-mcps/main/index.json
 
-## Registry
+You can mirror that file or point the app at a custom URL in settings.
 
-The registry is a single file: [`registry.json`](./registry.json)
+## Layout
 
-Atlarix fetches this on the MCP marketplace tab and renders the list automatically. Users connect servers directly — no manual config files needed.
+| Path | Purpose |
+|------|---------|
+| `index.json` | **Generated** merged registry (do not edit by hand) |
+| `registry.overrides.json` | Curated deep-merges and extra entries — **edit via PR** |
+| `scripts/sync.mjs` | Node 20+ sync: GitHub API + awesome README + overrides |
 
-## Current servers
+Optional keys on entries (`verified`, `needsReview`) are ignored by Atlarix today but are kept for tooling and review; see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-| Server | Description |
-|--------|-------------|
-| GitHub | Search repos, manage issues and PRs |
-| Filesystem | Read and write local files |
-| PostgreSQL | Query PostgreSQL databases |
-| Slack | Read channels, post messages |
-| Brave Search | Web search via Brave API |
-| SQLite | Query local SQLite databases |
-| Memory | Persistent cross-session knowledge graph |
-| Puppeteer | Browser automation and scraping |
-| Sentry | Read errors and issues |
-| Linear | Manage Linear issues |
-| Notion | Read and write Notion pages |
-| Jira | Read and create Jira issues |
-| AWS Knowledge Base | Retrieve from Bedrock Knowledge Bases |
-| Redis | Read and write Redis data |
-| Docker | Manage containers and images |
-| Vercel | Manage deployments and projects |
-| Supabase | Query Supabase tables |
-| Stripe | Read payments and subscriptions |
-| AWS CloudWatch | Read logs and metrics |
-| Google Maps | Places search and directions |
+## Upstream data
 
-## Adding a server
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) and [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived) — npm packages under `src/<dir>/package.json` (same `id` as directory name; main repo wins when both define a folder)
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — README bullets with a GitHub link and a `` `npx …` `` hint
+- [microsoft/mcp](https://github.com/microsoft/mcp) — skipped in automation (NuGet / non-`npx` templates)
 
-Open a PR that adds an entry to `registry.json` following the existing shape. Required fields: `id`, `name`, `description`, `installCommand`, `authType`, `envVars`, `tags`, `tier`.
+## Automation
+
+GitHub Actions (`.github/workflows/sync.yml`) runs on a weekly schedule (Monday 00:00 UTC), `workflow_dispatch`, and pushes to `main`. It regenerates `index.json` and commits only when the file changes (`chore: sync MCP registry [skip ci]`).
+
+## Local dry-run
+
+Per-source counts are printed to stdout (official main/archived dir counts, awesome line/hit counts, merged size, `needsReview` tally):
+
+```bash
+npm run sync:dry-run
+# or: node scripts/sync.mjs --dry-run
+```
+
+Use `--print-json` with `--dry-run` to dump the merged payload without writing `index.json`. Set `GITHUB_TOKEN` for a higher GitHub API quota.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) and the **Request a server** issue template.
+
+## License
+
+Apache License 2.0 — see [LICENSE](./LICENSE).

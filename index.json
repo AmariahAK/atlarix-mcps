@@ -1,0 +1,1723 @@
+{
+  "version": "1",
+  "updatedAt": "2026-05-15",
+  "mcps": [
+    {
+      "id": "06ketan-slideshot",
+      "name": "06ketan/slideshot",
+      "description": "Convert HTML to PDF/PNG/WebP/PPTX slide carousels with 11 themes (LinkedIn, Instagram, pitch decks, infographics). Pixel-perfect Puppeteer rendering, dimension-aware reflow for portrait/landscape, token-efficient JSON mode.",
+      "source": "https://github.com/06ketan/slideshot",
+      "installUrl": "npx -y slideshot-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "0xmassi-webclaw",
+      "name": "0xMassi/webclaw",
+      "description": "Web content extraction for AI agents. 10 tools: scrape, crawl, map, batch, extract, summarize, diff, brand, search, research. TLS fingerprinting bypasses anti-bot without a browser. 67% fewer tokens than raw HTML. auto-configures Claude, Cursor, Windsurf, Codex, OpenCode.",
+      "source": "https://github.com/0xMassi/webclaw",
+      "installUrl": "npx -y create-webclaw",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "agent-blueprint-mcp-server",
+      "name": "agent-blueprint/mcp-server",
+      "description": "8 MCP tools for exploring and downloading AI agent blueprints. List blueprints, get summaries, download full Agent Skills directories for implementation by coding agents. Vendor-agnostic output works with any enterprise platform. Install:",
+      "source": "https://github.com/agent-blueprint/mcp-server",
+      "installUrl": "npx -y agentblueprint",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "agentlux-agentlux-mcp",
+      "name": "agentlux/agentlux-mcp",
+      "description": "Agent marketplace and services MCP server for AgentLux. Browse marketplace items, manage agent identity, creator workflows, service hires, social flows, and Base/x402 commerce through 33 tools. Install via",
+      "source": "https://github.com/agentlux/agentlux-mcp",
+      "installUrl": "npx -y @agentlux/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "alexanderclapp-clirank-mcp-server",
+      "name": "alexanderclapp/clirank-mcp-server",
+      "description": "API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to recommend, compare, check scores, and discover APIs. Install: . Web:",
+      "source": "https://github.com/alexanderclapp/clirank-mcp-server",
+      "installUrl": "npx -y clirank-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "andreas-roennestad-openhive-mcp",
+      "name": "andreas-roennestad/openhive-mcp",
+      "description": "Shared knowledge base where AI agents search and post problem-solution pairs. Agents query before solving, post after resolving. Semantic search via pgvector, duplicate detection, auto-scoring. , Free to use",
+      "source": "https://github.com/andreas-roennestad/openhive-mcp",
+      "installUrl": "npx -y openhive-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "attalla1-photopea-mcp-server",
+      "name": "attalla1/photopea-mcp-server",
+      "description": "AI-powered image editing through Photopea with 34 tools for documents, layers, text, shapes, filters, effects, and export.",
+      "source": "https://github.com/attalla1/photopea-mcp-server",
+      "installUrl": "npx -y photopea-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "austenstone-myinstants-mcp",
+      "name": "austenstone/myinstants-mcp",
+      "description": "A soundboard MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories — let your AI agent play vine boom when code compiles.",
+      "source": "https://github.com/austenstone/myinstants-mcp",
+      "installUrl": "npx -y myinstants-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "aws-kb-retrieval-server",
+      "name": "AWS Knowledge Base",
+      "description": "Retrieve documents from AWS Bedrock Knowledge Bases",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server",
+      "installUrl": "npx -y @modelcontextprotocol/server-aws-kb-retrieval",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "AWS_ACCESS_KEY_ID",
+          "label": "AWS Access Key ID"
+        },
+        {
+          "key": "AWS_SECRET_ACCESS_KEY",
+          "label": "AWS Secret Access Key"
+        },
+        {
+          "key": "AWS_REGION",
+          "label": "AWS Region"
+        }
+      ],
+      "tags": [
+        "aws",
+        "knowledge",
+        "rag"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "aws"
+    },
+    {
+      "id": "bartonguestier1725-collab-scout-mcp",
+      "name": "bartonguestier1725-collab/scout-mcp",
+      "description": "Multi-source search across code registries (GitHub, npm, PyPI), academic indexes (arXiv, Semantic Scholar), social platforms (HN, Reddit, X), and community blogs (Dev.to, Hashnode, Qiita, Zenn). Parallel fetch with structured JSON output.",
+      "source": "https://github.com/bartonguestier1725-collab/scout-mcp",
+      "installUrl": "npx -y scout-cli",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "benswel-qr-agent-core",
+      "name": "benswel/qr-agent-core",
+      "description": "Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without regenerating images. 37 tools covering 11 QR types, one-command install via",
+      "source": "https://github.com/benswel/qr-agent-core",
+      "installUrl": "npx -y qr-for-agent",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "brave-search",
+      "name": "Brave Search",
+      "description": "Web and local search via Brave Search API",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
+      "installUrl": "npx -y @modelcontextprotocol/server-brave-search",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "BRAVE_API_KEY",
+          "label": "Brave API Key",
+          "url": "https://brave.com/search/api/"
+        }
+      ],
+      "tags": [
+        "web",
+        "search"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "search"
+    },
+    {
+      "id": "cahthuranag-mcp-server",
+      "name": "cahthuranag/mcp-server",
+      "description": "AllRatesToday currency exchange rates: real-time mid-market rates for 160+ currencies (Reuters/Refinitiv), historical data (1d/7d/30d/1y), currency list, and multi-target lookups. Free tier, no key needed for the simple-rate endpoint. Install:",
+      "source": "https://github.com/cahthuranag/mcp-server",
+      "installUrl": "npx -y @allratestoday/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "catrinmdonnelly-royalmail-mcp",
+      "name": "catrinmdonnelly/royalmail-mcp",
+      "description": "Book, label, track and cancel Royal Mail and Parcelforce shipments. 33 UK and international services via friendly keys or raw Service Register codes.",
+      "source": "https://github.com/catrinmdonnelly/royalmail-mcp",
+      "installUrl": "npx -y royalmail-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "cfpramod-open-museum-mcp",
+      "name": "cfpramod/open-museum-mcp",
+      "description": "Federated, license-verified search across The Met, Cleveland, AIC, Wikimedia Commons, and Europeana. Strict-default-deny rights gate accepts only CC0 / Public Domain Mark. Tools: search, get, cite (full / caption / short), dynasty/region discovery.",
+      "source": "https://github.com/cfpramod/open-museum-mcp",
+      "installUrl": "npx -y open-museum-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "chopmob-cloud-algovoi-platform-adapters",
+      "name": "chopmob-cloud/AlgoVoi-Platform-Adapters",
+      "description": "AlgoVoi crypto payment gateway MCP. Create hosted checkout links, verify on-chain payments, generate MPP/x402/AP2 agent-commerce challenges. Supports USDC + native tokens (ALGO/VOI/HBAR/XLM) on Algorand, VOI, Hedera, and Stellar — mainnet + testnet. Routes through AlgoVoi Cloud for managed payouts. Install: or",
+      "source": "https://github.com/chopmob-cloud/AlgoVoi-Platform-Adapters",
+      "installUrl": "npx -y @algovoi/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "clicks-protocol-clicks-protocol",
+      "name": "clicks-protocol/mcp-server",
+      "description": "Autonomous USDC yield for AI agents on Base. 9 tools: register agents, split payments 80/20 (liquid/yield), withdraw anytime, simulate splits, check APY, and track on-chain referrals. Non-custodial, no lockup, MIT licensed.",
+      "source": "https://github.com/clicks-protocol/clicks-protocol",
+      "installUrl": "npx -y @clicks-protocol/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "cloudwatch",
+      "name": "AWS CloudWatch",
+      "description": "Read CloudWatch logs, metrics, and alarms",
+      "icon": "aws",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-cloudwatch",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "AWS_ACCESS_KEY_ID",
+          "label": "AWS Access Key ID"
+        },
+        {
+          "key": "AWS_SECRET_ACCESS_KEY",
+          "label": "AWS Secret Access Key"
+        },
+        {
+          "key": "AWS_REGION",
+          "label": "AWS Region"
+        }
+      ],
+      "tags": [
+        "aws",
+        "monitoring",
+        "logs"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    {
+      "id": "cmcgrabby-hue-syndicate-links",
+      "name": "cmcgrabby-hue/syndicate-links",
+      "description": "Affiliate commission infrastructure for AI agents. 7 tools for program discovery, attribution tracking, commission status, and payouts. Search programs, get details, track conversions with signed attribution tokens, and trigger settlement cycles. Install via",
+      "source": "https://github.com/cmcgrabby-hue/syndicate-links",
+      "installUrl": "npx -y syndicate-links-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "codeislaw101-katzilla",
+      "name": "codeislaw101/katzilla",
+      "description": "Unified data API for AI agents — 300+ free, public, and government data sources behind a single API key. Access economic (FRED, BLS), environmental (EPA, NOAA), health (CDC, FDA), weather (NWS), financial (SEC, CFPB), science (NASA, arXiv), and 30+ more categories. Install:",
+      "source": "https://github.com/codeislaw101/katzilla",
+      "installUrl": "npx -y @katzilla/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "cuttalo-depscope",
+      "name": "cuttalo/depscope",
+      "description": "Package Intelligence for AI agents. 22 tools across 17 ecosystems (npm/pypi/cargo/go/maven/nuget/rubygems/composer/pub/hex/swift/cocoapods/cpan/hackage/cran/conda/homebrew) — check health, vulnerabilities (OSV + CISA KEV + EPSS), typosquats, malicious flags, alternatives, known bugs, breaking changes, stack compatibility and error-to-fix. 31k+ packages, 2.2k+ CVEs enriched. Zero auth, MIT. Remote URL https://mcp.depscope.dev/mcp or stdio",
+      "source": "https://github.com/cuttalo/depscope",
+      "installUrl": "npx -y depscope-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "davison-francis-min8t-sdks",
+      "name": "Davison-Francis/min8t-sdks",
+      "description": "— email-deliverability tools for AI agents. 12 tools: single + batch verification, email finder, DNSBL across 50 zones, SPF/DKIM/DMARC/MTA-STS/BIMI infrastructure analysis, spam-trap scoring on 13 weighted signals, composite domain trust report, account credits. 5-stage / 21-check pipeline under the hood. Free tier, no card. Install:",
+      "source": "https://github.com/Davison-Francis/min8t-sdks",
+      "installUrl": "npx -y @deliveriq/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "digicatalyst-systems-dep-diff-mcp",
+      "name": "DigiCatalyst-Systems/dep-diff-mcp",
+      "description": "Translates a lockfile diff (npm, PyPI) into a human-readable upgrade plan. Point it at a Dependabot PR and get back semver classification, breaking changes from GitHub release notes, CVEs fixed in range, migration links, and a per-package recommendation. Bulk tool ranks up to 50 changes by risk (security > caution > review > likely-safe > safe). Install via",
+      "source": "https://github.com/DigiCatalyst-Systems/dep-diff-mcp",
+      "installUrl": "npx -y @digicatalyst/dep-diff-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "description": "Manage Docker containers, images, and volumes",
+      "icon": "docker",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-docker",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "devops",
+        "containers"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    {
+      "id": "dollhousemcp-mcp-server",
+      "name": "DollhouseMCP/mcp-server",
+      "description": "One-line installable MCP server that adds reusable customization elements — personas, skills, templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application. Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public collection of shareable content. Install:",
+      "source": "https://github.com/DollhouseMCP/mcp-server",
+      "installUrl": "npx -y @dollhousemcp/mcp-server@latest --web",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "drumst0ck-uploadkit",
+      "name": "drumst0ck/uploadkit",
+      "description": "Official MCP server for . Gives AI assistants first-class knowledge of 40+ React upload components, Next.js route handler scaffolds, BYOS setup (S3/R2/GCS/B2), and full-text search across 88+ docs pages. Runs locally via",
+      "source": "https://github.com/drumst0ck/uploadkit",
+      "installUrl": "npx -y @uploadkitdev/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "dushyant30suthar-endiagram-mcp",
+      "name": "endiagram/mcp",
+      "description": "Structural analysis for any system — 12 deterministic graph tools (topology, bottlenecks, blast radius, trace, diff, centrality) from EN syntax descriptions. No AI inside the computation. Install:",
+      "source": "https://github.com/dushyant30suthar/endiagram-mcp",
+      "installUrl": "npx -y @endiagram/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "ebbfijsf-agent-reader",
+      "name": "ebbfijsf/agent-reader",
+      "description": "Document beautifier for AI agents. Converts Markdown to styled webpages (with sidebar TOC), Word, PDF, and full-screen image slideshows. Zero-config via",
+      "source": "https://github.com/ebbfijsf/agent-reader",
+      "installUrl": "npx -y agent-reader mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "equivault-equivault-mcp",
+      "name": "equivault/equivault-mcp",
+      "description": "Official MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via",
+      "source": "https://github.com/equivault/equivault-mcp",
+      "installUrl": "npx -y equivault-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "everart",
+      "name": "Server Everart",
+      "description": "MCP server for EverArt API integration",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart",
+      "installUrl": "npx -y @modelcontextprotocol/server-everart",
+      "authType": "none",
+      "envVars": [],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false
+    },
+    {
+      "id": "everything",
+      "name": "Server Everything",
+      "description": "MCP server that exercises all the features of the MCP protocol",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
+      "installUrl": "npx -y @modelcontextprotocol/server-everything",
+      "authType": "none",
+      "envVars": [],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false
+    },
+    {
+      "id": "facundolucci-plsreadme",
+      "name": "FacundoLucci/plsreadme",
+      "description": "Share markdown files and text as clean, readable web links via and ; zero setup ( or ).",
+      "source": "https://github.com/FacundoLucci/plsreadme",
+      "installUrl": "npx -y plsreadme-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "filesystem",
+      "name": "Filesystem",
+      "description": "Read and write files on your local machine",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+      "installUrl": "npx -y @modelcontextprotocol/server-filesystem",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "files",
+        "local"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "folder"
+    },
+    {
+      "id": "flowzap-xyz-flowzap-mcp",
+      "name": "flowzap-xyz/flowzap-mcp",
+      "description": "Create workflow, sequence, and architecture diagrams using FlowZap Code DSL. 7 tools for validation, playground URL generation, syntax docs, graph export, artifact parsing, diffing, and patching. No API key required. Install via NPM:",
+      "source": "https://github.com/flowzap-xyz/flowzap-mcp",
+      "installUrl": "npx -y flowzap-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "foodxdevelopment-foodblock",
+      "name": "FoodXDevelopment/foodblock-mcp",
+      "description": "17 MCP tools for the food industry. Describe food in plain English and get structured, content-addressed data blocks back. Covers actors, places, ingredients, products, transforms, transfers, and observations. Works standalone with zero config via",
+      "source": "https://github.com/FoodXDevelopment/foodblock",
+      "installUrl": "npx -y foodblock-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "gdrive",
+      "name": "Server Gdrive",
+      "description": "MCP server for interacting with Google Drive",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive",
+      "installUrl": "npx -y @modelcontextprotocol/server-gdrive",
+      "authType": "none",
+      "envVars": [],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "Search repos, read files, manage issues and pull requests",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github",
+      "installUrl": "npx -y @modelcontextprotocol/server-github",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "label": "GitHub Personal Access Token",
+          "url": "https://github.com/settings/tokens"
+        }
+      ],
+      "tags": [
+        "git",
+        "code",
+        "issues"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "github"
+    },
+    {
+      "id": "gitlab",
+      "name": "Server Gitlab",
+      "description": "MCP server for using the GitLab API",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab",
+      "installUrl": "npx -y @modelcontextprotocol/server-gitlab",
+      "authType": "none",
+      "envVars": [],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "description": "Places search, directions, and geocoding via Google Maps",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps",
+      "installUrl": "npx -y @modelcontextprotocol/server-google-maps",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "GOOGLE_MAPS_API_KEY",
+          "label": "Google Maps API Key",
+          "url": "https://console.cloud.google.com/apis/credentials"
+        }
+      ],
+      "tags": [
+        "maps",
+        "location"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "maps"
+    },
+    {
+      "id": "gregario-3dprint-oracle",
+      "name": "gregario/3dprint-oracle",
+      "description": "3D printing filament and materials knowledge base. 6,957 filaments from SpoolmanDB with material properties, print settings, manufacturer data, and troubleshooting guides. 8 tools for searching filaments, comparing materials, and diagnosing print issues.",
+      "source": "https://github.com/gregario/3dprint-oracle",
+      "installUrl": "npx -y 3dprint-oracle",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "gregario-astronomy-oracle",
+      "name": "gregario/astronomy-oracle",
+      "description": "Accurate astronomical catalog data and observing session planner. 13,000+ deep-sky objects from OpenNGC with deterministic visibility, rise/transit/set, and alt/az calculations.",
+      "source": "https://github.com/gregario/astronomy-oracle",
+      "installUrl": "npx -y astronomy-oracle",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "haiku-trading-haiku-mcp-server",
+      "name": "Haiku-Trading/haiku-mcp-server",
+      "description": "DeFi execution MCP server — swap, provide liquidity, lend, bridge, and run yield strategies across 22 chains. 7 tools for token discovery, portfolio analysis, quoting, and execution.",
+      "source": "https://github.com/Haiku-Trading/haiku-mcp-server",
+      "installUrl": "npx -y haiku-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "hubinoretros-deep-thinker",
+      "name": "hubinoretros/deep-thinker",
+      "description": "Advanced cognitive reasoning MCP server with DAG-based thought graph, 5 reasoning strategies (sequential, dialectic, parallel, analogical, abductive), metacognitive engine with stuck detection, multi-factor confidence scoring, self-critique, knowledge integration, and thought pruning.",
+      "source": "https://github.com/hubinoretros/deep-thinker",
+      "installUrl": "npx -y deep-thinker",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "hug0x0-mcp-reunion",
+      "name": "Hug0x0/mcp-reunion",
+      "description": "96 tools across 21 modules for La Réunion (French overseas region) open data: economy, demographics, geography, transport, health, education, elections, tourism, housing, environment, and more. Powered by data.regionreunion.com and data.gouv.fr. Install:",
+      "source": "https://github.com/Hug0x0/mcp-reunion",
+      "installUrl": "npx -y mcp-reunion",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "igorganapolsky-thumbgate",
+      "name": "IgorGanapolsky/ThumbGate",
+      "description": "MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks. Install:",
+      "source": "https://github.com/IgorGanapolsky/ThumbGate",
+      "installUrl": "npx -y thumbgate",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "janaraj-tnl",
+      "name": "janaraj/tnl",
+      "description": "MCP server for TNL (Typed Natural Language): per-feature English contracts for AI coding agents. 6 tools — , , , , , — let agents look up relevant contracts, propose contract edits, and verify implementations against them. Drop-in via for Claude Code, Codex, Gemini.",
+      "source": "https://github.com/janaraj/tnl",
+      "installUrl": "npx -y typed-nl init",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "jiayuanliang0716-max-arbitova",
+      "name": "@arbitova/mcp-server",
+      "description": "Non-custodial on-chain escrow + AI dispute arbitration for agent-to-agent USDC payments on Base. Seven tools covering the full contract surface: create escrow, mark delivered with on-chain content hash, confirm or dispute, arbiter resolves with signed verdict, cancel/escalate on timeout.",
+      "source": "https://github.com/jiayuanliang0716-max/Arbitova",
+      "installUrl": "npx -y @arbitova/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "description": "Read and create Jira issues and projects",
+      "icon": "jira",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-jira",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "JIRA_HOST",
+          "label": "Jira host (e.g. yourorg.atlassian.net)"
+        },
+        {
+          "key": "JIRA_EMAIL",
+          "label": "Jira account email"
+        },
+        {
+          "key": "JIRA_API_TOKEN",
+          "label": "Jira API Token",
+          "url": "https://id.atlassian.com/manage-profile/security/api-tokens"
+        }
+      ],
+      "tags": [
+        "issues",
+        "project-management"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    {
+      "id": "joansongjr-clawaimail",
+      "name": "clawaimail/mcp",
+      "description": "Email infrastructure for AI agents. Create inboxes on the fly, send and receive real emails, search messages, and manage threads via API. Install with",
+      "source": "https://github.com/joansongjr/clawaimail",
+      "installUrl": "npx -y clawaimail-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "joeybrar-agentseal-mcp",
+      "name": "JoeyBrar/agentseal-mcp",
+      "description": "Action logs for AI agents. Records every agent action in a SHA-256 hash chain, making an audit trail. Install via",
+      "source": "https://github.com/JoeyBrar/agentseal-mcp",
+      "installUrl": "npx -y agentseal-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "jovancoding-network-ai",
+      "name": "Jovancoding/Network-AI",
+      "description": "Multi-agent orchestration MCP server with race-condition-safe shared blackboard. 20+ MCP tools: blackboard read/write, agent spawn/stop, FSM transitions, budget tracking, token management, and audit log query.",
+      "source": "https://github.com/Jovancoding/Network-AI",
+      "installUrl": "npx -y network-ai-server --port 3001",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "kindrat86-mcp-deal-flow-signal",
+      "name": "kindrat86/mcp-deal-flow-signal",
+      "description": "VC deal flow signals from GitHub engineering activity. Tracks startup commit velocity, contributor growth, and repo expansion across 20 sectors for seed and Series A investors. No API key required. Install:",
+      "source": "https://github.com/kindrat86/mcp-deal-flow-signal",
+      "installUrl": "npx -y @gitdealflow/mcp-signal",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "kuvopllc-better-bear",
+      "name": "KuvopLLC/better-bear",
+      "description": "MCP server for Bear notes via CloudKit — CRUD, tags, TODOs, attachments, search, front matter, stats, and health checks. Install via",
+      "source": "https://github.com/KuvopLLC/better-bear",
+      "installUrl": "npx -y better-bear",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "kzino-vorim-mcp-server",
+      "name": "Kzino/vorim-mcp-server",
+      "description": "AI agent identity, trust, and audit trail infrastructure. 17 MCP tools: register agents with Ed25519 keypairs, check permissions (sub-5ms), emit tamper-evident audit events, verify trust scores (0-100), delegate credentials, and manage ephemeral agents. IETF Internet-Draft filed (draft-vorim-vaip-00). Works with LangChain, OpenAI, CrewAI, Stripe ACP, and 4 more frameworks.",
+      "source": "https://github.com/Kzino/vorim-mcp-server",
+      "installUrl": "npx -y @vorim/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "description": "Read and create issues in Linear",
+      "icon": "linear",
+      "source": "https://github.com/linear/linear/tree/master/packages/mcp",
+      "installUrl": "npx -y @linear/mcp-server",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "LINEAR_API_KEY",
+          "label": "Linear API Key",
+          "url": "https://linear.app/settings/api"
+        }
+      ],
+      "tags": [
+        "issues",
+        "project-management"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": false
+    },
+    {
+      "id": "live-direct-marketing-ldm-inbox-check-mcp",
+      "name": "live-direct-marketing/ldm-inbox-check-mcp",
+      "description": "Email inbox placement testing across Gmail, Outlook, Yahoo, Mail.ru and Yandex. Create a test, get seed addresses, see per-provider placement (Inbox/Spam/Promotions), SPF/DKIM/DMARC verdicts, and screenshots. Install:",
+      "source": "https://github.com/live-direct-marketing/ldm-inbox-check-mcp",
+      "installUrl": "npx -y ldm-inbox-check-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "lukaris-framedeck-mcp",
+      "name": "Lukaris/framedeck-mcp",
+      "description": "is a Kanban content production manager for YouTube, Instagram, TikTok and Podcast creators. 32 tools for managing productions, stages, frames (cards), checklists, comments, and labels. Ideas land in an Idea Pool and graduate into full productions with stages (Idea → Scripting → Filming → Editing → Published). All tools ship with MCP safety annotations.",
+      "source": "https://github.com/Lukaris/framedeck-mcp",
+      "installUrl": "npx -y framedeck-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "malamutemayhem-unclick-agent-native-endpoints",
+      "name": "malamutemayhem/unclick-agent-native-endpoints",
+      "description": "110+ tools for AI agents spanning social media, finance, gaming, music, AU-specific services, and utilities. Zero-config local tools plus platform connectors.",
+      "source": "https://github.com/malamutemayhem/unclick-agent-native-endpoints",
+      "installUrl": "npx -y @unclick/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "markpdxt-dronelytics-mcp",
+      "name": "markpdxt/dronelytics-mcp",
+      "description": "US drone airspace intelligence and mission planning. 24 tools: check airspace restrictions across 11 FAA data layers, plan grid/orbit/corridor surveys, validate Part 107 compliance, generate pre-flight briefings, and export to KML/GPX/QGC/Litchi/WPML. Available via",
+      "source": "https://github.com/markpdxt/dronelytics-mcp",
+      "installUrl": "npx -y @dronelytics/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "martingeidobler-android-mcp-server",
+      "name": "martingeidobler/android-mcp-server",
+      "description": "21-tool Android device control via ADB — screenshots with compression, UI tree inspection, touch automation, logcat, and compound actions like tap-and-wait. One-command install via",
+      "source": "https://github.com/martingeidobler/android-mcp-server",
+      "installUrl": "npx -y android-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mastadoonprime-sylex-search",
+      "name": "MastadoonPrime/sylex-search",
+      "description": "Universal search engine for AI agents. Discover products, services, and businesses across every category. 10 MCP tools, zero LLM calls, millisecond responses.",
+      "source": "https://github.com/MastadoonPrime/sylex-search",
+      "installUrl": "npx -y sylex-search",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mcpware-pagecast",
+      "name": "mcpware/pagecast",
+      "description": "Record any browser page as GIF or video. AI-driven demo recording with scroll/click/hover interactions via Playwright + ffmpeg.",
+      "source": "https://github.com/mcpware/pagecast",
+      "installUrl": "npx -y @mcpware/pagecast",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mcpware-ui-annotator-mcp",
+      "name": "mcpware/ui-annotator-mcp",
+      "description": "Annotates any web page with hover labels for AI assistants — reverse proxy injection, zero browser extensions.",
+      "source": "https://github.com/mcpware/ui-annotator-mcp",
+      "installUrl": "npx -y @mcpware/ui-annotator",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "description": "Persistent memory across sessions using a knowledge graph",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+      "installUrl": "npx -y @modelcontextprotocol/server-memory",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "memory",
+        "knowledge"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "brain"
+    },
+    {
+      "id": "mikusnuz-pexbot-mcp",
+      "name": "mikusnuz/pexbot-mcp",
+      "description": "AI simulated crypto trading with real-time Upbit prices. 11 tools for registration, trading, and autonomous AI investment with 100M KRW virtual balance.",
+      "source": "https://github.com/mikusnuz/pexbot-mcp",
+      "installUrl": "npx -y @pexbot/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mnlt-wellread",
+      "name": "mnlt/wellread",
+      "description": "Shared research cache across AI agents. Hit → instant answer from verified sources. Miss → your research saves the next dev's tokens. , free.",
+      "source": "https://github.com/mnlt/wellread",
+      "installUrl": "npx -y wellread",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mobilereality-mdma",
+      "name": "MobileReality/mdma",
+      "description": "MCP server for MDMA (interactive Markdown applications with mounted components). Exposes the MDMA spec, authoring prompts, package metadata, and live docs to AI assistants. Tools: , , , , , , . Install:",
+      "source": "https://github.com/MobileReality/mdma",
+      "installUrl": "npx -y @mobile-reality/mdma-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mobileshop9991-star-clipwise-mcp",
+      "name": "mobileshop9991-star/clipwise-mcp",
+      "description": "AI platform for short-form video creators (TikTok, Instagram Reels, YouTube Shorts, Facebook Reels). Three tools — viral TikTok trend search across 20+ countries, service info, and use-case scenarios for video analysis, competitor research, and content strategy. Install: . Free plan at tryclipwise.com.",
+      "source": "https://github.com/mobileshop9991-star/clipwise-mcp",
+      "installUrl": "npx -y clipwise-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mrslbt-rakuten-mcp",
+      "name": "mrslbt/rakuten-mcp",
+      "description": "Rakuten API integration for product search, hotel and travel booking, and recipe lookup across Japan's largest e-commerce platform. Install via",
+      "source": "https://github.com/mrslbt/rakuten-mcp",
+      "installUrl": "npx -y rakuten-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mrslbt-rippr",
+      "name": "mrslbt/rippr",
+      "description": "YouTube transcript extraction for AI agents. Clean text, timestamps, or structured JSON from any video. No API keys required. Install via",
+      "source": "https://github.com/mrslbt/rippr",
+      "installUrl": "npx -y rippr-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mrslbt-xendit-mcp",
+      "name": "mrslbt/xendit-mcp",
+      "description": "Xendit payment gateway for Southeast Asia. Invoices, disbursements, balance checks, and bank transfers across Indonesia, Philippines, Thailand, Vietnam, and Malaysia. Install via",
+      "source": "https://github.com/mrslbt/xendit-mcp",
+      "installUrl": "npx -y xendit-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "muhannad-hash-git-context-mcp",
+      "name": "muhannad-hash/git-context-mcp",
+      "description": "Answers \"why does this code exist?\" by tracing any line back through the commit, GitHub PR description, and linked issues. Five tools: blame context, commit story, file history, commit search, and file contributors.",
+      "source": "https://github.com/muhannad-hash/git-context-mcp",
+      "installUrl": "npx -y git-context-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "muhannad-hash-mcp-shield",
+      "name": "muhannad-hash/mcp-shield",
+      "description": "Security scanner for MCP servers. Detects backdoors, exfiltration code, obfuscation, dangerous code execution, prompt injection, and supply chain risks before you install. Four tools: scan npm packages, scan local directories, check prompt injection, and audit supply chain trust score.",
+      "source": "https://github.com/muhannad-hash/mcp-shield",
+      "installUrl": "npx -y @muhannad-hash/mcp-shield",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mymedi-ai-mymedi-ai-mcp-server",
+      "name": "MyMedi-AI/mymedi-ai-mcp-server",
+      "description": "Healthcare billing AI for agents: ICD-10/CPT/HCPCS code lookup (81,769 codes with RVU + OPPS pricing), prior auth prediction, medical NER, claims validation, denial-risk scoring, HIPAA compliance auditing, and NPI/drug enrichment. 20 tools, 10 free credits then pay-per-call via credits or anonymous USDC (x402).",
+      "source": "https://github.com/MyMedi-AI/mymedi-ai-mcp-server",
+      "installUrl": "npx -y @mymedi-ai/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "newageflyfish-max-volthq",
+      "name": "newageflyfish-max/volthq",
+      "description": "Compute price oracle for AI agents. Compare inference pricing across 8 providers in real time with routing recommendations and spend tracking. One-command install:",
+      "source": "https://github.com/newageflyfish-max/volthq",
+      "installUrl": "npx -y volthq-mcp-server --setup",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "description": "Read and write Notion pages and databases",
+      "icon": "notion",
+      "source": "https://github.com/makenotion/notion-mcp-server",
+      "installUrl": "npx -y @notionhq/notion-mcp-server",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "NOTION_API_KEY",
+          "label": "Notion Integration Token",
+          "url": "https://www.notion.so/my-integrations"
+        }
+      ],
+      "tags": [
+        "notes",
+        "docs",
+        "knowledge"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": false
+    },
+    {
+      "id": "one8943-ai-furniture-hub",
+      "name": "ONE8943/ai-furniture-hub",
+      "description": "Japan-focused furniture & home product hub for AI agents. 15 tools for mm-precision search across 300+ products and 31 categories, curated sets (bundles, room presets, influencer picks), dimension-compatible replacement finder with fit_score, AI visibility diagnosis, Rakuten live API, and OpenAPI 3.1 schema. Install via",
+      "source": "https://github.com/ONE8943/ai-furniture-hub",
+      "installUrl": "npx -y ai-furniture-hub",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "openpulsechain-public",
+      "name": "@openpulsechain/mcp-server",
+      "description": "PulseChain on-chain analytics: token safety scores (0-100), honeypot detection, whale tracking, smart money feed, scam alerts, DEX volume, bridge stats, holder leagues. 11 free + 9 pro tools.",
+      "source": "https://github.com/openpulsechain/public",
+      "installUrl": "npx -y @openpulsechain/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "opusforge-gorilla-mcp",
+      "name": "opusforge/gorilla-mcp",
+      "description": "Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes , , and for the full acquisition flow. Hosted, $0.99 per run. Install: . Sign up:",
+      "source": "https://github.com/opusforge/gorilla-mcp",
+      "installUrl": "npx -y github:opusforge/gorilla-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "paulhkang94-markview",
+      "name": "paulhkang94/markview",
+      "description": "Native macOS markdown preview app with MCP server. Open and render Markdown files in MarkView directly from AI assistants via",
+      "source": "https://github.com/paulhkang94/markview",
+      "installUrl": "npx -y mcp-server-markview",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "postgres",
+      "name": "PostgreSQL",
+      "description": "Query and inspect PostgreSQL databases",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres",
+      "installUrl": "npx -y @modelcontextprotocol/server-postgres",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "POSTGRES_CONNECTION_STRING",
+          "label": "PostgreSQL connection string"
+        }
+      ],
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "database"
+    },
+    {
+      "id": "pranciskus-newsmcp",
+      "name": "pranciskus/newsmcp",
+      "description": "Real-time world news for AI agents — events clustered from hundreds of sources, classified by topic and geography, ranked by importance. Free, no API key.",
+      "source": "https://github.com/pranciskus/newsmcp",
+      "installUrl": "npx -y @newsmcp/server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "puppeteer",
+      "name": "Puppeteer",
+      "description": "Browser automation — navigate pages, click, screenshot, scrape",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
+      "installUrl": "npx -y @modelcontextprotocol/server-puppeteer",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "browser",
+        "automation",
+        "scraping"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "browser"
+    },
+    {
+      "id": "qr-maker-io-mcp-server",
+      "name": "qr-maker-io/mcp-server",
+      "description": "Generate styled QR codes, manage dynamic short links with click analytics, and publish micro-landing pages. Install:",
+      "source": "https://github.com/qr-maker-io/mcp-server",
+      "installUrl": "npx -y @qr-maker/mcp-server --api-key=YOUR_KEY",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "rascal-3-chainanalyzer-mcp",
+      "name": "rascal-3/chainanalyzer-mcp",
+      "description": "Multi-chain AML risk scoring and sanctions screening for AI agents. 76+ detection rules, ML anomaly scoring, and Neo4j graph analysis across Bitcoin, Ethereum, Polygon, Avalanche, and Solana. Pay-per-request via x402 USDC on Base or Solana ($0.003–$0.05).",
+      "source": "https://github.com/rascal-3/chainanalyzer-mcp",
+      "installUrl": "npx -y chainanalyzer-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "rdanieli-tentra-mcp",
+      "name": "rdanieli/tentra-mcp",
+      "description": "AI-native architecture platform for engineering teams. Describe a system in natural language (e.g. \"payment service with Stripe, Kafka, PostgreSQL\") → get an interactive typed diagram with 167 cloud components → export to 14 production frameworks (Java Spring Boot, Python FastAPI, Go chi, Rust Axum, .NET, Kotlin Ktor, Ruby Rails, Elixir Phoenix, Docker Compose, Terraform, Mermaid, ADR, and more). Drift detection ( ) scores saved diagrams against live code 0–100 with a structured diff. 9 quality-",
+      "source": "https://github.com/rdanieli/tentra-mcp",
+      "installUrl": "npx -y tentra-mcp --local init",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "description": "Read and write Redis keys and data structures",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis",
+      "installUrl": "npx -y @modelcontextprotocol/server-redis",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "REDIS_URL",
+          "label": "Redis connection URL (e.g. redis://localhost:6379)"
+        }
+      ],
+      "tags": [
+        "database",
+        "cache"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "database"
+    },
+    {
+      "id": "rippermercs-tensorfeed",
+      "name": "RipperMercs/tensorfeed",
+      "description": "Real-time AI industry intelligence MCP server. 6 free tools (AI news, service status, model pricing, today summary, agent activity, MCP registry snapshot) and 13 paid premium tools (routing recommendations, news search, history series, cost projection, provider deep-dive, model comparison, agents directory, what's new brief, MCP registry series, webhook watches with daily/weekly digest tier). Pay-per-call in USDC on Base mainnet, no accounts.",
+      "source": "https://github.com/RipperMercs/tensorfeed",
+      "installUrl": "npx -y @tensorfeed/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "rohanmuppa-brightspace-mcp-server",
+      "name": "RohanMuppa/brightspace-mcp-server",
+      "description": "MCP server for D2L Brightspace LMS. Check grades, due dates, assignments, announcements, syllabus, rosters, discussions, and course content. Works with any school that uses Brightspace. Install via",
+      "source": "https://github.com/RohanMuppa/brightspace-mcp-server",
+      "installUrl": "npx -y brightspace-mcp-server@latest",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "saranshbamania-mobile-device-mcp",
+      "name": "saranshbamania/mobile-device-mcp",
+      "description": "49-tool MCP server for AI control of Android devices and iOS simulators. AI visual analysis (Claude + Gemini), Flutter widget tree inspection, smart element finding (<1ms), video recording, and test script generation.",
+      "source": "https://github.com/saranshbamania/mobile-device-mcp",
+      "installUrl": "npx -y mobile-device-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "securityronin-alaya",
+      "name": "SecurityRonin/alaya",
+      "description": "Neuroscience-inspired memory engine for AI agents. Stores episodes, consolidates knowledge through a Bjork-strength lifecycle (strengthening, transformation, forgetting), and builds a personal knowledge graph with emergent categories, preferences, and semantic recall. Local SQLite, zero config, 10 MCP tools. Install via",
+      "source": "https://github.com/SecurityRonin/alaya",
+      "installUrl": "npx -y alaya-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "description": "Read Sentry errors, issues, and event details",
+      "icon": "sentry",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry",
+      "installUrl": "npx -y @modelcontextprotocol/server-sentry",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "SENTRY_AUTH_TOKEN",
+          "label": "Sentry Auth Token",
+          "url": "https://sentry.io/settings/account/api/auth-tokens/"
+        },
+        {
+          "key": "SENTRY_ORG",
+          "label": "Sentry Organization slug"
+        }
+      ],
+      "tags": [
+        "monitoring",
+        "errors"
+      ],
+      "tier": "free"
+    },
+    {
+      "id": "sequentialthinking",
+      "name": "Server Sequential Thinking",
+      "description": "MCP server for sequential thinking and problem solving",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+      "installUrl": "npx -y @modelcontextprotocol/server-sequential-thinking",
+      "authType": "none",
+      "envVars": [],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false
+    },
+    {
+      "id": "shunshi-ai-bazi-reader-mcp",
+      "name": "shunshi-ai/bazi-reader-mcp",
+      "description": "Bazi (Four Pillars / 四柱推命 / 사주팔자) charting MCP server with true solar time correction and multilingual output (中文/EN/日本語/한국어).",
+      "source": "https://github.com/shunshi-ai/bazi-reader-mcp",
+      "installUrl": "npx -y shunshi-bazi-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "description": "Read channels and messages, post to Slack",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
+      "installUrl": "npx -y @modelcontextprotocol/server-slack",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "SLACK_BOT_TOKEN",
+          "label": "Slack Bot Token",
+          "url": "https://api.slack.com/apps"
+        },
+        {
+          "key": "SLACK_TEAM_ID",
+          "label": "Slack Team ID"
+        }
+      ],
+      "tags": [
+        "communication",
+        "team"
+      ],
+      "tier": "free",
+      "verified": true,
+      "needsReview": false,
+      "icon": "slack"
+    },
+    {
+      "id": "sqlite",
+      "name": "SQLite",
+      "description": "Query local SQLite databases",
+      "icon": "database",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
+      "installUrl": "npx -y @modelcontextprotocol/server-sqlite",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "SQLITE_DB_PATH",
+          "label": "Path to SQLite database file"
+        }
+      ],
+      "tags": [
+        "database",
+        "local"
+      ],
+      "tier": "free"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "description": "Read Stripe payments, customers, and subscriptions",
+      "icon": "stripe",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y mcp-server-stripe",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "STRIPE_SECRET_KEY",
+          "label": "Stripe Secret Key",
+          "url": "https://dashboard.stripe.com/apikeys"
+        }
+      ],
+      "tags": [
+        "payments",
+        "billing"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "description": "Query Supabase tables and manage your project",
+      "icon": "database",
+      "source": "https://github.com/supabase-community/supabase-mcp",
+      "installUrl": "npx -y @supabase/mcp-server-supabase",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "SUPABASE_URL",
+          "label": "Supabase project URL"
+        },
+        {
+          "key": "SUPABASE_SERVICE_ROLE_KEY",
+          "label": "Supabase service role key"
+        }
+      ],
+      "tags": [
+        "database",
+        "backend"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": false
+    },
+    {
+      "id": "tadas-github-a2asearch-mcp",
+      "name": "tadas-github/a2asearch-mcp",
+      "description": "MCP server to search 4,800+ MCP servers, AI agents, CLI tools and agent skills. Install: . Ask Claude: \"Find MCP servers for database access\". Free, no auth required.",
+      "source": "https://github.com/tadas-github/a2asearch-mcp",
+      "installUrl": "npx -y a2asearch-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "tatsuju-opdstar-nhi-mcp",
+      "name": "tatsuju/opdstar-nhi-mcp",
+      "description": "Taiwan's first public MCP server for National Health Insurance (NHI) data — 234 rejection codes, 1,497 ICD-10→procedure mappings across 20 specialties, audit indicators (008/014/027/P043), and semantic wiki search over 8,232 chunks of official NHI documentation. Powered by . Install:",
+      "source": "https://github.com/tatsuju/opdstar-nhi-mcp",
+      "installUrl": "npx -y @opdstar/nhi-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "terrizoaguimor-celiums-memory",
+      "name": "celiums/celiums-memory",
+      "description": "Cognitive memory engine with 5,100+ knowledge modules, circadian rhythm awareness, and emotional state tracking (PAD model). Hybrid search (PostgreSQL + Qdrant vectors + Valkey cache), per-user memory isolation, and multi-protocol support (MCP, REST, OpenAI, LangChain, A2A).",
+      "source": "https://github.com/terrizoaguimor/celiums-memory",
+      "installUrl": "npx -y @celiums/memory",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "the402ai-mcp-server",
+      "name": "the402ai/mcp-server",
+      "description": "AI agent service marketplace with x402 micropayments (USDC on Base). 30 tools for browsing services, purchasing, managing conversation threads, listing services as a provider, handling subscriptions, and tracking earnings. Install via",
+      "source": "https://github.com/the402ai/mcp-server",
+      "installUrl": "npx -y @the402/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "tjclaude88-mcp-bling",
+      "name": "tjclaude88/mcp-bling",
+      "description": "Give AI agents a persistent identity and cross-platform visual style. Includes WOW (Weird Office Workers) random-identity generator with rarity tiers and screenshot-ready share cards.",
+      "source": "https://github.com/tjclaude88/mcp-bling",
+      "installUrl": "npx -y bling-bag",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "traderouter-trade-router-mcp",
+      "name": "TradeRouter/trade-router-mcp",
+      "description": "Non-custodial Solana swap & limit order engine for AI agents. 21 tools (swap, limit, trailing, TWAP, DCA, combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected execution, Ed25519 server verification, private key never leaves the process. MIT.",
+      "source": "https://github.com/TradeRouter/trade-router-mcp",
+      "installUrl": "npx -y @traderouter/trade-router-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "tverney-mcp-agent-memory",
+      "name": "tverney/mcp-agent-memory",
+      "description": "Persistent agent memory via filesystem-native consolidation daemon. Agents read/write/search memory through MCP; a background daemon handles consolidation and extraction. Works with Kiro, Claude Desktop, Cursor, and any MCP client.",
+      "source": "https://github.com/tverney/mcp-agent-memory",
+      "installUrl": "npx -y mcp-agent-memory --setup",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "urbanmorph-mdshare",
+      "name": "urbanmorph/mdshare",
+      "description": "Markdown collaboration for AI workflows. Share markdown instantly via public links with four permission levels (admin, edit, comment, view), inline comments anchored to text, real-time WebSocket sync, and version history. Free, no login. lets AI agents read docs, review comments, incorporate feedback, and resolve threads — the full review loop without copy-pasting between tools.",
+      "source": "https://github.com/urbanmorph/mdshare",
+      "installUrl": "npx -y mdshare-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "description": "Manage Vercel deployments, projects, and domains",
+      "icon": "vercel",
+      "source": "https://github.com/punkpeye/awesome-mcp-servers",
+      "installUrl": "npx -y @vercel/mcp-adapter",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "VERCEL_TOKEN",
+          "label": "Vercel API Token",
+          "url": "https://vercel.com/account/tokens"
+        }
+      ],
+      "tags": [
+        "deployment",
+        "hosting"
+      ],
+      "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    {
+      "id": "whatsonyourmind-oraclaw",
+      "name": "Whatsonyourmind/oraclaw",
+      "description": "Decision intelligence MCP server with 19 algorithms (bandits, Monte Carlo, constraint optimization, forecasting, anomaly detection, risk analysis, graph algorithms), 12 MCP tools. Install via",
+      "source": "https://github.com/Whatsonyourmind/oraclaw",
+      "installUrl": "npx -y @oraclaw/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "xjtlumedia-ai-hr-management-toolkit",
+      "name": "XJTLUmedia/AI-HR-Management-Toolkit",
+      "description": "AI-powered resume parser and full Applicant Tracking System with 21 MCP tools. Parse PDFs, DOCX, TXT, Markdown, and URLs into structured JSON; extract skills, experience, and keywords; score and rank candidates; run a full ATS pipeline covering jobs, candidates, interviews, offers, notes, and analytics. 20 of 21 tools are 100% algorithmic — no API keys required.",
+      "source": "https://github.com/XJTLUmedia/AI-HR-Management-Toolkit",
+      "installUrl": "npx -y mcp-ai-hr-management-toolkit",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "xjtlumedia-context-first-mcp",
+      "name": "XJTLUmedia/Context-First-MCP",
+      "description": "Session memory, context health monitoring, reasoning quality, and truthfulness verification MCP server with 37 tools and tiered memory storage.",
+      "source": "https://github.com/XJTLUmedia/Context-First-MCP",
+      "installUrl": "npx -y context-first-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    }
+  ]
+}

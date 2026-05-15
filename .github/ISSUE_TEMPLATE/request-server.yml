@@ -1,0 +1,45 @@
+name: Request a server
+description: Suggest an MCP server to list or improve via registry overrides
+title: "[server] "
+labels: ["registry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Display name
+      description: Short title shown in the marketplace
+      placeholder: e.g. Acme Tasks
+    validations:
+      required: true
+  - type: input
+    id: npm
+    attributes:
+      label: npm package or npx command
+      description: Prefer the exact `npx -y …` install line if known
+      placeholder: e.g. npx -y @scope/mcp-server-acme
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two sentences on what the server does
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Required environment variables
+      description: List names and short hints (and links to where to create tokens if applicable)
+      placeholder: |
+        API_KEY — from https://example.com/settings
+    validations:
+      required: false
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Repository or docs for the MCP implementation
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
