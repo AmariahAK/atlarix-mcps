@@ -48,3 +48,9 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) and the **Request a server** issue temp
 ## License
 
 Apache License 2.0 — see [LICENSE](./LICENSE).
+
+## Related repos
+
+- **[atlarix-skills](https://github.com/AmariahAK/atlarix-skills)** — Apache-2.0 skill registry for Settings → Skills (**Pro / Workforce**).
+- **[atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** — published desktop installers and update manifests.
+- **[AmariahAK/Atlarix](https://github.com/AmariahAK/Atlarix)** — application source (proprietary); product site [atlarix.dev](https://atlarix.dev).
