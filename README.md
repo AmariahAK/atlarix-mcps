@@ -49,6 +49,16 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) and the **Request a server** issue temp
 
 Apache License 2.0 — see [LICENSE](./LICENSE).
 
+## Related Work
+
+atlarix-mcps is part of the broader Atlarix ecosystem. The context management system that Blueprint and MCP tools operate within is documented in a published technical paper:
+
+**Blueprint: Section-Scoped Structural Graph Retrieval and Post-Turn Compression for Agentic LLM Coding in Multi-Repository Workspaces**  
+Amariah Kamau, NorahLabs — May 2026  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20381860.svg)](https://doi.org/10.5281/zenodo.20381860)
+
+The paper describes how Blueprint's section-scoped graph interacts with the tool layer — including how MCP tool results are handled in post-turn summarisation.
+
 ## Related repos
 
 - **[atlarix-skills](https://github.com/AmariahAK/atlarix-skills)** — Apache-2.0 skill registry for Settings → Skills (**Pro / Workforce**).
