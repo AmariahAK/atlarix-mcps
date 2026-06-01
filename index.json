@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-25",
+  "updatedAt": "2026-06-01",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -45,11 +45,53 @@
       "verified": false
     },
     {
+      "id": "agenticmail-agenticmail",
+      "name": "agenticmail/agenticmail",
+      "description": "Real email and SMS for AI agents. Run a local mail server with disposable inboxes, send/receive real email, fetch verification codes, and drive a real inbox — all from your machine, no third-party email API. Install with",
+      "source": "https://github.com/agenticmail/agenticmail",
+      "installUrl": "npx -y @agenticmail/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "agentlux-agentlux-mcp",
       "name": "agentlux/agentlux-mcp",
       "description": "Agent marketplace and services MCP server for AgentLux. Browse marketplace items, manage agent identity, creator workflows, service hires, social flows, and Base/x402 commerce through 33 tools. Install via",
       "source": "https://github.com/agentlux/agentlux-mcp",
       "installUrl": "npx -y @agentlux/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "aiweather-anurag-ottasia-mcp-server",
+      "name": "AIweather-Anurag/ottasia-mcp-server",
+      "description": "Where to watch any movie or TV show across 30 Asian and Middle Eastern streaming markets (Netflix, Disney+ Hotstar, Wavve, Shahid, Hoichoi, ZEE5, JioCinema, and 17 more).",
+      "source": "https://github.com/AIweather-Anurag/ottasia-mcp-server",
+      "installUrl": "npx -y @ottasia/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "alanpcf-brasil-data-mcp",
+      "name": "alanpcf/brasil-data-mcp",
+      "description": "Brazilian public data for AI agents — companies (CNPJ), addresses (CEP), banks (BACEN), national holidays — via . No auth, no API key. Install:",
+      "source": "https://github.com/alanpcf/brasil-data-mcp",
+      "installUrl": "npx -y brasil-data-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -87,6 +129,34 @@
       "verified": false
     },
     {
+      "id": "andreisirbu91-lab-mcpspend",
+      "name": "andreisirbu91-lab/MCPSpend",
+      "description": "Real-time cost observability for MCP tool calls. Transparent proxy auto-detects every MCP client (Claude Desktop, Cursor, Windsurf, VS Code, Claude Code, Zed, Continue.dev, Cline, Goose) and attributes spend per tool, per project, per end-customer. install. Free tier 25K calls/month, no card. MIT proxy on npm. EU-hosted, GDPR-ready.",
+      "source": "https://github.com/andreisirbu91-lab/MCPSpend",
+      "installUrl": "npx -y @mcpspend/proxy add",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "ashlrai-webfetch",
+      "name": "ashlrai/webfetch",
+      "description": "License-first federated image search across 25 providers. Returns open/platform/editorial license tags, attribution strings, dimensions, and download-ready URLs via",
+      "source": "https://github.com/ashlrai/webfetch",
+      "installUrl": "npx -y getwebfetch-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "attalla1-photopea-mcp-server",
       "name": "attalla1/photopea-mcp-server",
       "description": "AI-powered image editing through Photopea with 34 tools for documents, layers, text, shapes, filters, effects, and export.",
@@ -106,6 +176,20 @@
       "description": "A soundboard MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories — let your AI agent play vine boom when code compiles.",
       "source": "https://github.com/austenstone/myinstants-mcp",
       "installUrl": "npx -y myinstants-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "automatelab-tech-citation-intelligence",
+      "name": "AutomateLab-tech/citation-intelligence",
+      "description": "What LLMs cite, for agents. Check which URLs Perplexity, Claude, ChatGPT, Gemini, Bing, and Google AI Overviews cite for any query. Self-hosted, BYO API key. Install via",
+      "source": "https://github.com/AutomateLab-tech/citation-intelligence",
+      "installUrl": "npx -y @automatelab/citation-intelligence",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -144,6 +228,20 @@
       "verified": true,
       "needsReview": false,
       "icon": "aws"
+    },
+    {
+      "id": "ayo-nci-bulkrender-mcp",
+      "name": "ayo-nci/bulkrender-mcp",
+      "description": "Generate DOCX and PDF documents from reusable templates at scale. Upload a DOCX template once, call or with JSON data, and receive a signed download link. Walk-in tools let agents pay per-session via Stripe with no account required.",
+      "source": "https://github.com/ayo-nci/bulkrender-mcp",
+      "installUrl": "npx -y bulkrender-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "bartonguestier1725-collab-scout-mcp",
@@ -197,6 +295,34 @@
       "icon": "search"
     },
     {
+      "id": "buywhere-buywhere-mcp",
+      "name": "BuyWhere/buywhere-mcp",
+      "description": "Cross-border e-commerce product catalog for AI agents. Search 3M+ products across Singapore, SEA, and US markets with price comparison and deal discovery. Install via",
+      "source": "https://github.com/BuyWhere/buywhere-mcp",
+      "installUrl": "npx -y @buywhere/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "cachly-dev-cachly-mcp",
+      "name": "cachly-dev/cachly-mcp",
+      "description": "Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed. briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain, semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed Valkey/Redis. — free tier, no credit card.",
+      "source": "https://github.com/cachly-dev/cachly-mcp",
+      "installUrl": "npx -y @cachly-dev/init",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "cahthuranag-mcp-server",
       "name": "cahthuranag/mcp-server",
       "description": "AllRatesToday currency exchange rates: real-time mid-market rates for 160+ currencies (Reuters/Refinitiv), historical data (1d/7d/30d/1y), currency list, and multi-target lookups. Free tier, no key needed for the simple-rate endpoint. Install:",
@@ -244,6 +370,20 @@
       "description": "AlgoVoi crypto payment gateway MCP. Create hosted checkout links, verify on-chain payments, generate MPP/x402/AP2 agent-commerce challenges. Supports USDC + native tokens (ALGO/VOI/HBAR/XLM) on Algorand, VOI, Hedera, and Stellar — mainnet + testnet. Routes through AlgoVoi Cloud for managed payouts. Install: or",
       "source": "https://github.com/chopmob-cloud/AlgoVoi-Platform-Adapters",
       "installUrl": "npx -y @algovoi/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "clawdbotworker-imagegen-mcp",
+      "name": "clawdbotworker/imagegen-mcp",
+      "description": "AI image generation from text prompts via x402 micropayments on Base. $0.10 USDC per image, paid automatically from your wallet. No API key required.",
+      "source": "https://github.com/clawdbotworker/imagegen-mcp",
+      "installUrl": "npx -y coinopai-imagegen",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -326,6 +466,20 @@
       "verified": false
     },
     {
+      "id": "colapsis-transfa",
+      "name": "colapsis/transfa",
+      "description": "Ephemeral file transfer for AI agents and CI/CD pipelines — upload any file, get a SHA-256-verified, TTL-enforced link. 4 tools: upload, file_info, list_uploads, delete_upload. Zero-config via",
+      "source": "https://github.com/colapsis/transfa",
+      "installUrl": "npx -y transfa-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "cuttalo-depscope",
       "name": "cuttalo/depscope",
       "description": "Package Intelligence for AI agents. 22 tools across 17 ecosystems (npm/pypi/cargo/go/maven/nuget/rubygems/composer/pub/hex/swift/cocoapods/cpan/hackage/cran/conda/homebrew) — check health, vulnerabilities (OSV + CISA KEV + EPSS), typosquats, malicious flags, alternatives, known bugs, breaking changes, stack compatibility and error-to-fix. 31k+ packages, 2.2k+ CVEs enriched. Zero auth, MIT. Remote URL https://mcp.depscope.dev/mcp or stdio",
@@ -354,11 +508,53 @@
       "verified": false
     },
     {
+      "id": "declade-lucairn-sdks",
+      "name": "Declade/lucairn-sdks",
+      "description": "Privacy-preserving AI gateway. Sanitises PII (German + English; Microsoft Presidio + custom recognisers) before prompts reach Anthropic / OpenAI / your LLM, then emits a signed cryptographic certificate per call (Ed25519 + RFC 3161 timestamp + Sigstore Rekor anchoring). EU GDPR + AI Act ready. Free tier 500 calls/month, BYOK. Install: . Docs: https://lucairn.eu/developer/mcp.",
+      "source": "https://github.com/Declade/lucairn-sdks",
+      "installUrl": "npx -y @lucairn/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "delmas41-gradusnotation",
+      "name": "delmas41/gradusnotation",
+      "description": "Render music notation (SVG + MusicXML + MIDI) from a JSON score, validate input, analyze MusicXML harmonically, and search a curated music-theory knowledge base. Free, no auth.",
+      "source": "https://github.com/delmas41/gradusnotation",
+      "installUrl": "npx -y @gradusmusic/notation-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "digicatalyst-systems-dep-diff-mcp",
       "name": "DigiCatalyst-Systems/dep-diff-mcp",
       "description": "Translates a lockfile diff (npm, PyPI) into a human-readable upgrade plan. Point it at a Dependabot PR and get back semver classification, breaking changes from GitHub release notes, CVEs fixed in range, migration links, and a per-package recommendation. Bulk tool ranks up to 50 changes by risk (security > caution > review > likely-safe > safe). Install via",
       "source": "https://github.com/DigiCatalyst-Systems/dep-diff-mcp",
       "installUrl": "npx -y @digicatalyst/dep-diff-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "dnotitia-akb",
+      "name": "dnotitia/akb",
+      "description": "Organizational knowledge base for AI agents. Vault-scoped Markdown docs, structured PostgreSQL tables, and files unified by a URI graph. Hybrid semantic + BM25 search, Git-backed version history, multi-tenant ACL with public-share links. Works with Claude Code, Cursor, Windsurf via",
+      "source": "https://github.com/dnotitia/akb",
+      "installUrl": "npx -y akb-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -390,6 +586,20 @@
       "description": "One-line installable MCP server that adds reusable customization elements — personas, skills, templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application. Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public collection of shareable content. Install:",
       "source": "https://github.com/DollhouseMCP/mcp-server",
       "installUrl": "npx -y @dollhousemcp/mcp-server@latest --web",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "domdemetz-claude-soul",
+      "name": "DomDemetz/claude-soul",
+      "description": "Self-improving learning engine for Claude Code. Extracts signals from every session (corrections, successes, confusion), runs periodic reflections, and evolves behavioral frameworks through evidence tiers (hypothesis → observed → validated). Frameworks that keep working get promoted, bad ones get retired. 9 MCP tools, automatic hooks, phase-adaptive learning. Single dependency, local-only.",
+      "source": "https://github.com/DomDemetz/claude-soul",
+      "installUrl": "npx -y claude-soul init --starter",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -441,6 +651,20 @@
       "verified": false
     },
     {
+      "id": "ejwhite7-brandkit-mcp",
+      "name": "ejwhite7/brandkit-mcp",
+      "description": "Expose a company's complete design system (colors, typography, logos, components, guidelines, CSS tokens) to AI tools via MCP. Auto-parses CSS / Markdown / PDF / SVG / fonts; supports vs contexts with shared overrides; ships 12 tools, 16+ resources under , and 4 prompts; stdio + SSE + Streamable HTTP transports. Install via NPM:",
+      "source": "https://github.com/ejwhite7/brandkit-mcp",
+      "installUrl": "npx -y brandkit-mcp serve",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "equivault-equivault-mcp",
       "name": "equivault/equivault-mcp",
       "description": "Official MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via",
@@ -477,6 +701,20 @@
       "tier": "free",
       "verified": true,
       "needsReview": false
+    },
+    {
+      "id": "fabio662-yieldagentx402-sdks",
+      "name": "Fabio662/yieldagentx402-sdks",
+      "description": "Custody-free, policy-gated, receipt-backed execution layer for AI agents. 16 MCP tools across 18 chains (Base, Ethereum, Bitcoin native, Starknet, NEAR, Solana, Stacks, BNB, Rootstock, Filecoin, Aptos, Sui, TON, Tron, XRPL, Stellar, Algorand). One NEAR MPC key authority signs on EVM and BTC, no private keys held anywhere. ShadeGuard policy enforcement, Intel TDX TEE attestation, HMAC-SHA256 receipts, Filecoin and BTFS anchored. x402 protocol settlement with 0.25 percent protocol fee. Public disc",
+      "source": "https://github.com/Fabio662/yieldagentx402-sdks",
+      "installUrl": "npx -y agentx402-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "facundolucci-plsreadme",
@@ -679,11 +917,67 @@
       "verified": false
     },
     {
+      "id": "hugoles-langfuse-mcp",
+      "name": "hugoles/langfuse-mcp",
+      "description": "TypeScript MCP server for the Langfuse Public API. 27 read tools covering traces, observations, sessions, scores, score-configs, prompts (with version/label), datasets, dataset items, dataset runs, metrics, models, projects, comments, media, and health. Distributed as with provenance-signed releases.",
+      "source": "https://github.com/hugoles/langfuse-mcp",
+      "installUrl": "npx -y langfuse-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "hypeprinter007-stack-signalfuse-mcp",
+      "name": "hypeprinter007-stack/signalfuse-mcp",
+      "description": "11 tools for AI trading agents: fused crypto signals (10 assets), sentiment, macro regime, live strategy arena (4 strategies × 4 assets), fused web search (Brave + Tavily), and sandboxed code execution (E2B). Pay-per-call USDC on Base via x402. Free browser playground at — 25 calls/day, no wallet.",
+      "source": "https://github.com/hypeprinter007-stack/signalfuse-mcp",
+      "installUrl": "npx -y signalfuse-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "igorganapolsky-thumbgate",
       "name": "IgorGanapolsky/ThumbGate",
       "description": "MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks. Install:",
       "source": "https://github.com/IgorGanapolsky/ThumbGate",
       "installUrl": "npx -y thumbgate",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "iletimerkezi-iletimerkezi-mcp-server",
+      "name": "iletimerkezi/iletimerkezi-mcp-server",
+      "description": "Send SMS, query delivery reports, manage senders / blacklists, register and check İYS (Turkish messaging consent registry) records through the BTK-licensed SMS API. 11 tools, runtime-fetched manifest stays in lock-step with the live API. Install:",
+      "source": "https://github.com/iletimerkezi/iletimerkezi-mcp-server",
+      "installUrl": "npx -y @iletimerkezi/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "iprashantraj-mcp-discord-bridge",
+      "name": "iprashantraj/mcp-discord-bridge",
+      "description": "Discord MCP server with 46 tools for channels, messages, forums, webhooks, members, roles, threads, and moderation. Zero-install via . Also runs as a standalone bot with slash commands.",
+      "source": "https://github.com/iprashantraj/mcp-discord-bridge",
+      "installUrl": "npx -y mcp-discord-bridge",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -836,6 +1130,20 @@
       "verified": false
     },
     {
+      "id": "lambopoewert-mcp-server-madeonsol",
+      "name": "LamboPoewert/mcp-server-madeonsol",
+      "description": "Real-time Solana memecoin intelligence — 51 tools across KOL wallet tracking (1,000+ wallets, sub-3s latency), Pump.fun deployer scoring (6,700+ scored), multi-KOL coordination signals, alpha-wallet intel (47k+ scored early buyers), first-touch scout signal (backtested ≥3 follow-on KOLs ~50% of the time vs 14% baseline), copy-trade rules, and the all-DEX trade firehose. Free tier 200 req/day; also supports x402 micropayments. Install:",
+      "source": "https://github.com/LamboPoewert/mcp-server-madeonsol",
+      "installUrl": "npx -y smithery mcp add madeonsol/solana-kol-intelligence",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "linear",
       "name": "Linear",
       "description": "Read and create issues in Linear",
@@ -859,11 +1167,39 @@
       "needsReview": false
     },
     {
+      "id": "lithtrix-lithtrix-mcp",
+      "name": "lithtrix/lithtrix-mcp",
+      "description": "Memory Consolidation for AI agents across vendors, owners, and time. Persistent memory, credibility-scored web search, browser fetch, and shared Commons pool under a stable key. Self-registration in one API call, no dashboard required.",
+      "source": "https://github.com/lithtrix/lithtrix-mcp",
+      "installUrl": "npx -y lithtrix-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "live-direct-marketing-ldm-inbox-check-mcp",
       "name": "live-direct-marketing/ldm-inbox-check-mcp",
       "description": "Email inbox placement testing across Gmail, Outlook, Yahoo, Mail.ru and Yandex. Create a test, get seed addresses, see per-provider placement (Inbox/Spam/Promotions), SPF/DKIM/DMARC verdicts, and screenshots. Install:",
       "source": "https://github.com/live-direct-marketing/ldm-inbox-check-mcp",
       "installUrl": "npx -y ldm-inbox-check-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "localseodata-mcp-server",
+      "name": "localseodata/mcp-server",
+      "description": "42 local SEO tools for AI assistants. SERP tracking, Google Business Profile data, review monitoring, keyword research, citation audits, geogrid rank scans, AI visibility scoring, and competitive analysis. Install: or connect to the hosted endpoint at",
+      "source": "https://github.com/localseodata/mcp-server",
+      "installUrl": "npx -y @localseodata/mcp-server",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1002,6 +1338,20 @@
       "verified": false
     },
     {
+      "id": "mlava-scholar-sidekick-mcp",
+      "name": "mlava/scholar-sidekick-mcp",
+      "description": "Resolve any scholarly identifier (DOI, PMID, PMCID, ISBN, arXiv, ISSN, ADS bibcode, WHO IRIS URL) into structured CSL JSON, format in 10,000+ citation styles, or export to BibTeX/RIS/EndNote/Zotero RDF/CSV. Single or batch. Install:",
+      "source": "https://github.com/mlava/scholar-sidekick-mcp",
+      "installUrl": "npx -y scholar-sidekick-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "mnlt-wellread",
       "name": "mnlt/wellread",
       "description": "Shared research cache across AI agents. Hit → instant answer from verified sources. Miss → your research saves the next dev's tokens. , free.",
@@ -1114,6 +1464,20 @@
       "verified": false
     },
     {
+      "id": "musepy-genable",
+      "name": "musepy/genable",
+      "description": "Write-side MCP for Figma — complements Figma's official read-only MCP. 41 tools for building and editing Figma designs from Claude Code, Cursor, Cline: JSX-like tree creation, variables/tokens, components, cross-page navigation, and visual verification via screenshots. Install:",
+      "source": "https://github.com/musepy/genable",
+      "installUrl": "npx -y genable-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "mymedi-ai-mymedi-ai-mcp-server",
       "name": "MyMedi-AI/mymedi-ai-mcp-server",
       "description": "Healthcare billing AI for agents: ICD-10/CPT/HCPCS code lookup (81,769 codes with RVU + OPPS pricing), prior auth prediction, medical NER, claims validation, denial-risk scoring, HIPAA compliance auditing, and NPI/drug enrichment. 20 tools, 10 free credits then pay-per-call via credits or anonymous USDC (x402).",
@@ -1133,6 +1497,20 @@
       "description": "Compute price oracle for AI agents. Compare inference pricing across 8 providers in real time with routing recommendations and spend tracking. One-command install:",
       "source": "https://github.com/newageflyfish-max/volthq",
       "installUrl": "npx -y volthq-mcp-server --setup",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "nicktcode-swissgroceries-mcp",
+      "name": "nicktcode/swissgroceries-mcp",
+      "description": "Swiss grocery search, weekly promotions, and multi-store shopping plans across Migros, Coop, Aldi, Denner, Lidl, Farmy, Volg, and Otto's. Cross-chain unit-price comparison and three planning strategies (single_store / split_cart / absolute_cheapest). Install via",
+      "source": "https://github.com/nicktcode/swissgroceries-mcp",
+      "installUrl": "npx -y @nicktcode/swissgroceries-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1433,11 +1811,67 @@
       "needsReview": false
     },
     {
+      "id": "sf1nx-x402station-mcp",
+      "name": "sF1nX/x402station",
+      "description": "Preflight by — infrastructure for x402 agentic commerce. Six capability directions (Discover/Evaluate/Pay/Monitor/Recover/Analyze). Agents call it before every to detect decoys, zombie endpoints, dead services, and price traps. Tools: ($0.001), ($0.001), ($0.005), ($0.005), ($0.001), ($0.50 = 1000 prepaid), ($0.01) + free / / . Plus free anonymous for self-test. Probes ~50k endpoints on agentic.market every 10 min. Open dataset: .",
+      "source": "https://github.com/sF1nX/x402station-mcp",
+      "installUrl": "npx -y x402station-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "shdomi8599-vibie-mcp",
+      "name": "shdomi8599/vibie-mcp",
+      "description": "Deploy static HTML folders to permanent vibie.page URLs in seconds. One-line auto-install ( ) wires up Claude Desktop and Cursor, OAuth device-flow auth, automatic folder marker for repeat deploys without re-typing slugs.",
+      "source": "https://github.com/shdomi8599/vibie-mcp",
+      "installUrl": "npx -y vibie-mcp setup",
+      "authType": "env",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "shinydapps-l402-kit",
+      "name": "ShinyDapps/l402-kit",
+      "description": "Full-stack L402 SDK: server middleware (Express/FastAPI/axum/net/http) + agent client with auto-pay. 4 languages (TypeScript, Python, Go, Rust). MCP server, LangChain integration, budget control.",
+      "source": "https://github.com/ShinyDapps/l402-kit",
+      "installUrl": "npx -y l402-kit-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "shunshi-ai-bazi-reader-mcp",
       "name": "shunshi-ai/bazi-reader-mcp",
       "description": "Bazi (Four Pillars / 四柱推命 / 사주팔자) charting MCP server with true solar time correction and multilingual output (中文/EN/日本語/한국어).",
       "source": "https://github.com/shunshi-ai/bazi-reader-mcp",
       "installUrl": "npx -y shunshi-bazi-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "skitchy-rekindle",
+      "name": "Skitchy/rekindle",
+      "description": "Session continuity engine that solves session orientation. Boot reports with gap detection and 100-point scoring, structured end-session capture with typed continuity records, and BM25 memory search. 7 tools, local SQLite + FTS5, zero API keys.",
+      "source": "https://github.com/Skitchy/rekindle",
+      "installUrl": "npx -y rekindle",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1474,6 +1908,20 @@
       "icon": "slack"
     },
     {
+      "id": "soil-dev-capsulemcp",
+      "name": "soil-dev/capsulemcp",
+      "description": "MCP server for . 81 tools (49 in read-only mode) covering contacts, opportunities, projects, tasks, timeline activity, structured + saved filters, workflow tracks, and file attachments. Two transports — stdio ( ) and HTTP+OAuth for hosted Custom Connectors. Read-only-mode env flag for safer defaults. Apache 2.0.",
+      "source": "https://github.com/soil-dev/capsulemcp",
+      "installUrl": "npx -y capsulemcp",
+      "authType": "env",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "sqlite",
       "name": "SQLite",
       "description": "Query local SQLite databases",
@@ -1492,6 +1940,20 @@
         "local"
       ],
       "tier": "free"
+    },
+    {
+      "id": "stifler7-memex",
+      "name": "STiFLeR7/memex",
+      "description": "Developer context continuity system. Watches your git repos and builds a temporal knowledge graph of modules, symbols, decisions, and open problems via Graphiti + Neo4j, then serves it to any AI coding agent over MCP. Every edge carries a validity window and a confidence score that decays over time. 12 tools across read and write. Install via . MIT licensed.",
+      "source": "https://github.com/STiFLeR7/memex",
+      "installUrl": "npx -y stifler-memex-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "stripe",
@@ -1613,6 +2075,20 @@
       "verified": false
     },
     {
+      "id": "tradallo-reputation",
+      "name": "tradallo/reputation",
+      "description": "MCP server + TS client + CLI for the **Tradallo Verified Record Protocol**. Query cryptographically-verified human + AI-agent trading reputations: track records, agent version history, paginated Universal Trade Receipts, and on-chain Solana memo notarization lookup. Every response is JCS-canonicalized + ed25519-verified locally before returning. Install:",
+      "source": "https://github.com/tradallo/reputation",
+      "installUrl": "npx -y @tradallo/reputation",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "traderouter-trade-router-mcp",
       "name": "TradeRouter/trade-router-mcp",
       "description": "Non-custodial Solana swap & limit order engine for AI agents. 21 tools (swap, limit, trailing, TWAP, DCA, combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected execution, Ed25519 server verification, private key never leaves the process. MIT.",
@@ -1641,11 +2117,39 @@
       "verified": false
     },
     {
+      "id": "untitledfinancial-dpx-mcp",
+      "name": "untitledfinancial/dpx-mcp",
+      "description": "Settlement protocol MCP server for institutional cross-border USDC transactions on Base mainnet. 14 tools: 10-source Stability Oracle (macro, FX, ESG, climate, supply chain, earth systems), ESG scoring with 6 institutional providers, FX quotes, Verification of Payee, and USDC settlement execution. x402 pay-per-call intelligence. MiCA-aligned, GENIUS Act compatible.",
+      "source": "https://github.com/untitledfinancial/dpx-mcp",
+      "installUrl": "npx -y @untitledfinancial/dpx-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "urbanmorph-mdshare",
       "name": "urbanmorph/mdshare",
       "description": "Markdown collaboration for AI workflows. Share markdown instantly via public links with four permission levels (admin, edit, comment, view), inline comments anchored to text, real-time WebSocket sync, and version history. Free, no login. lets AI agents read docs, review comments, incorporate feedback, and resolve threads — the full review loop without copy-pasting between tools.",
       "source": "https://github.com/urbanmorph/mdshare",
       "installUrl": "npx -y mdshare-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "vatnode-vatnode-mcp",
+      "name": "vatnode/vatnode-mcp",
+      "description": "Official MCP server for **EU VAT validation** via the EU Commission's VIES service + offline VAT rates for 45 European countries. Five tools: (live VIES with company name, address, registration date, and optional consultation number for audit), , , , . Four of five tools work offline without an API key (data bundled via ). Open source MIT, every release signed with npm provenance via GitHub Actions OIDC. Install:",
+      "source": "https://github.com/vatnode/vatnode-mcp",
+      "installUrl": "npx -y vatnode-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1676,6 +2180,20 @@
       "tier": "free",
       "verified": false,
       "needsReview": true
+    },
+    {
+      "id": "vitrine3d-mcp",
+      "name": "vitrine3d/mcp",
+      "description": "3D product viewer platform with a visual editor. Upload GLB models, style scenes with lighting, camera, and backgrounds, and embed on any website.",
+      "source": "https://github.com/vitrine3d/mcp",
+      "installUrl": "npx -y @vitrine3d/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "whatsonyourmind-oraclaw",
