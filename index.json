@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-08",
+  "updatedAt": "2026-06-15",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -120,6 +120,20 @@
       "description": "Persistent memory for Claude Code, Cursor, and GitHub Copilot via MCP. Semantic search, Git commit/PR sync, project-based organization, team collaboration. Free tier available.",
       "source": "https://github.com/alfredoizdev/contextforge-mcp",
       "installUrl": "npx -y contextforge-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "alisammour-storyflo-mcp",
+      "name": "Alisammour/storyflo-mcp",
+      "description": "Curated audio-news with a market-aware news signal. Search articles, fetch narrated audio, subscribe topic feeds, surface stories matched to actively traded Kalshi event contracts (CFTC-regulated; qualitative signal tags + link-out to Kalshi, never raw market data). 8 tools (7 free + 1 x402-paid over USDC on Base). Install via",
+      "source": "https://github.com/Alisammour/storyflo-mcp",
+      "installUrl": "npx -y storyflo-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -888,6 +902,20 @@
       "icon": "folder"
     },
     {
+      "id": "filetopdf-filetopdf-mcp",
+      "name": "FileToPDF/filetopdf-mcp",
+      "description": "Convert files (DOCX, XLSX, PPTX, images…), HTML, and Markdown to pixel-perfect PDFs via the FileToPDF API. Returns the PDF as an embedded resource or saves it to disk. Runs via or a hosted Streamable HTTP endpoint; free API key in one click.",
+      "source": "https://github.com/FileToPDF/filetopdf-mcp",
+      "installUrl": "npx -y filetopdf-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "flowzap-xyz-flowzap-mcp",
       "name": "flowzap-xyz/flowzap-mcp",
       "description": "Create workflow, sequence, and architecture diagrams using FlowZap Code DSL. 7 tools for validation, playground URL generation, syntax docs, graph export, artifact parsing, diffing, and patching. No API key required. Install via NPM:",
@@ -908,6 +936,20 @@
       "source": "https://github.com/FoodXDevelopment/foodblock",
       "installUrl": "npx -y foodblock-mcp",
       "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "forgemeshlabs-aso-audit-mcp",
+      "name": "forgemeshlabs/aso-audit-mcp",
+      "description": "Free Agent Signal Optimization scanner for website/API agent readiness. Scores discovery, identity, trust, commerce, reputation, and memory signals; validates robots.txt AI bot rules, llms.txt, agent.json, Google A2A agent cards, MCP server cards, API catalogs, OAuth metadata, x402, pricing, security.txt, status endpoints, and cross-file identity consistency. Returns ASO maturity levels, evidence, and prioritized fix plans. Local stdio or Glama-hosted, no API key required.",
+      "source": "https://github.com/forgemeshlabs/aso-audit-mcp",
+      "installUrl": "npx -y @forgemeshlabs/aso-audit-mcp",
+      "authType": "env",
       "envVars": [],
       "tags": [
         "community"
@@ -1001,6 +1043,20 @@
       "icon": "maps"
     },
     {
+      "id": "graphpilot-oss-graphpilot",
+      "name": "graphpilot-oss/graphpilot",
+      "description": "Structural memory for coding agents. Indexes TypeScript/JavaScript repos and exposes callers, callees, blast-radius impact, and symbol locations over MCP — with file:line@sha evidence anchors and branch-aware differential impact — so agents answer \"who calls X?\" / \"what breaks if I change X?\" without re-reading files. Local-only, zero telemetry, Apache-2.0.",
+      "source": "https://github.com/graphpilot-oss/graphpilot",
+      "installUrl": "npx -y @graphpilot-oss/graphpilot mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "gregario-3dprint-oracle",
       "name": "gregario/3dprint-oracle",
       "description": "3D printing filament and materials knowledge base. 6,957 filaments from SpoolmanDB with material properties, print settings, manufacturer data, and troubleshooting guides. 8 tools for searching filaments, comparing materials, and diagnosing print issues.",
@@ -1034,6 +1090,20 @@
       "description": "DeFi execution MCP server — swap, provide liquidity, lend, bridge, and run yield strategies across 22 chains. 7 tools for token discovery, portfolio analysis, quoting, and execution.",
       "source": "https://github.com/Haiku-Trading/haiku-mcp-server",
       "installUrl": "npx -y haiku-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "helbertparanhos-resend-email-mcp",
+      "name": "helbertparanhos/resend-email-mcp",
+      "description": "The most complete Resend email MCP — full API coverage (75 tools) plus a unique debug/diagnostics layer: deliverability analysis, DNS troubleshooting, email inspection, bounce explanation, and account audit.",
+      "source": "https://github.com/helbertparanhos/resend-email-mcp",
+      "installUrl": "npx -y resend-email-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1160,6 +1230,20 @@
       "description": "MCP server for TNL (Typed Natural Language): per-feature English contracts for AI coding agents. 6 tools — , , , , , — let agents look up relevant contracts, propose contract edits, and verify implementations against them. Drop-in via for Claude Code, Codex, Gemini.",
       "source": "https://github.com/janaraj/tnl",
       "installUrl": "npx -y typed-nl init",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "jeongseongmok-tossinvest-openapi-mcp",
+      "name": "JeongSeongMok/tossinvest-openapi-mcp",
+      "description": "Explore and integrate the Toss Securities (토스증권) Open API — browse endpoints & schemas, follow integration guides, and generate curl/TypeScript/Python code samples. Read-only documentation server, no credentials required.",
+      "source": "https://github.com/JeongSeongMok/tossinvest-openapi-mcp",
+      "installUrl": "npx -y tossinvest-openapi-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1424,6 +1508,20 @@
       "description": "110+ tools for AI agents spanning social media, finance, gaming, music, AU-specific services, and utilities. Zero-config local tools plus platform connectors.",
       "source": "https://github.com/malamutemayhem/unclick-agent-native-endpoints",
       "installUrl": "npx -y @unclick/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "malinoto-tracepass-mcp-server",
+      "name": "malinoto/tracepass-mcp-server",
+      "description": "EU Digital Product Passport automation for AI agents. Create products, build and audit DPPs (battery, electronics, textiles, and more), set economic-operator parties, and read or capture GS1 EPCIS 2.0 supply-chain events via the TracePass platform. 6 tools, hosted ( ) or local. Install via",
+      "source": "https://github.com/malinoto/tracepass-mcp-server",
+      "installUrl": "npx -y tracepass-mcp-server",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1702,6 +1800,20 @@
       "verified": false
     },
     {
+      "id": "namixai-signer-mcp",
+      "name": "namixai/signer-mcp",
+      "description": "Keyless CEX/DEX signing for AI trading agents (Binance, OKX, Bybit, KuCoin, Hyperliquid, Asterdex). Signing keys never leave an AWS Nitro Enclave (attested PCR0); agents receive policy-bounded signatures, not credentials. Built to survive prompt injection and supply-chain key leaks. 5 tools, stdio. Install with",
+      "source": "https://github.com/namixai/signer-mcp",
+      "installUrl": "npx -y @usenami/signer-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "newageflyfish-max-volthq",
       "name": "newageflyfish-max/volthq",
       "description": "Compute price oracle for AI agents. Compare inference pricing across 8 providers in real time with routing recommendations and spend tracking. One-command install:",
@@ -1787,20 +1899,6 @@
       "description": "Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes , , and for the full acquisition flow. Hosted, $0.99 per run. Install: . Sign up:",
       "source": "https://github.com/opusforge/gorilla-mcp",
       "installUrl": "npx -y github:opusforge/gorilla-mcp",
-      "authType": "none",
-      "envVars": [],
-      "tags": [
-        "community"
-      ],
-      "needsReview": true,
-      "verified": false
-    },
-    {
-      "id": "osamahassouna-docs-hub",
-      "name": "OsamaHassouna/docs-hub",
-      "description": "HTML Email Playbook — MCP server + CLI that teaches AI clients (Claude, Cursor, Cline, Codex) to write HTML email that renders in Outlook, Gmail, and Apple Mail. 4 tools, 19 rules, 6 components. Install: . Hosted:",
-      "source": "https://github.com/OsamaHassouna/docs-hub",
-      "installUrl": "npx -y email-playbook-mcp@latest",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1939,6 +2037,20 @@
       "description": "AI-native architecture platform for engineering teams. Describe a system in natural language (e.g. \"payment service with Stripe, Kafka, PostgreSQL\") → get an interactive typed diagram with 167 cloud components → export to 14 production frameworks (Java Spring Boot, Python FastAPI, Go chi, Rust Axum, .NET, Kotlin Ktor, Ruby Rails, Elixir Phoenix, Docker Compose, Terraform, Mermaid, ADR, and more). Drift detection ( ) scores saved diagrams against live code 0–100 with a structured diff. 9 quality-",
       "source": "https://github.com/rdanieli/tentra-mcp",
       "installUrl": "npx -y tentra-mcp --local init",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "re-port-flow-reportflow-mcp",
+      "name": "re-port-flow/reportflow-mcp",
+      "description": "Generate PDF reports (invoices, contracts, statements) from templates. 9 tools, 4 resources, 3 prompt recipes. OAuth2 + PKCE for first-run auth; supports single PDF and batch (ZIP) generation.",
+      "source": "https://github.com/re-port-flow/reportflow-mcp",
+      "installUrl": "npx -y reportflow-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2152,6 +2264,20 @@
       "description": "Bazi (Four Pillars / 四柱推命 / 사주팔자) charting MCP server with true solar time correction and multilingual output (中文/EN/日本語/한국어).",
       "source": "https://github.com/shunshi-ai/bazi-reader-mcp",
       "installUrl": "npx -y shunshi-bazi-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "site-shot-site-shot-mcp",
+      "name": "site-shot/site-shot-mcp",
+      "description": "Website screenshot API for AI agents. Real Chromium rendering, full-page capture up to 20,000px, country/geo proxies, and automatic ad & cookie-banner removal (cleaner images, fewer vision tokens). Two tools: , . Install:",
+      "source": "https://github.com/site-shot/site-shot-mcp",
+      "installUrl": "npx -y site-shot-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2590,7 +2716,7 @@
     {
       "id": "whatsonyourmind-oraclaw",
       "name": "Whatsonyourmind/oraclaw",
-      "description": "Decision intelligence MCP server with 19 algorithms (bandits, Monte Carlo, constraint optimization, forecasting, anomaly detection, risk analysis, graph algorithms), 12 MCP tools. Install via",
+      "description": "Decision intelligence MCP server with 19 algorithms (bandits, Monte Carlo, constraint optimization, forecasting, anomaly detection, risk analysis, graph algorithms), 28 MCP tools. Install via",
       "source": "https://github.com/Whatsonyourmind/oraclaw",
       "installUrl": "npx -y @oraclaw/mcp-server",
       "authType": "none",
