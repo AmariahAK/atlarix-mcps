@@ -107,7 +107,7 @@
     },
     "puppeteer": {
       "name": "Puppeteer",
-      "description": "Browser automation — navigate pages, click, screenshot, scrape",
+      "description": "Browser automation - navigate pages, click, screenshot, scrape",
       "icon": "browser",
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
       "installUrl": "npx -y @modelcontextprotocol/server-puppeteer",
@@ -330,6 +330,25 @@
       ],
       "tags": ["aws", "monitoring", "logs"],
       "tier": "free",
+      "verified": false,
+      "needsReview": true
+    },
+    "xquik": {
+      "id": "xquik",
+      "name": "Xquik",
+      "description": "MCP server for X data workflows, searches, account insights, and webhook automation.",
+      "icon": "search",
+      "source": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "installUrl": "https://xquik.com/mcp",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "XQUIK_API_KEY",
+          "label": "Xquik API Key",
+          "url": "https://docs.xquik.com/mcp/overview"
+        }
+      ],
+      "tags": ["social", "search", "automation"],
       "verified": false,
       "needsReview": true
     }
