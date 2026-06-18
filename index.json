@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-15",
+  "updatedAt": "2026-06-18",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -22,6 +22,20 @@
       "description": "Web content extraction for AI agents. 10 tools: scrape, crawl, map, batch, extract, summarize, diff, brand, search, research. TLS fingerprinting bypasses anti-bot without a browser. 67% fewer tokens than raw HTML. auto-configures Claude, Cursor, Windsurf, Codex, OpenCode.",
       "source": "https://github.com/0xMassi/webclaw",
       "installUrl": "npx -y create-webclaw",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "2s-io-sdk",
+      "name": "2s-io/sdk",
+      "description": "Unified API for AI agents — 180+ tools across geocoding, weather (NWS), climate stations (NOAA), earthquakes (USGS), tides (NOAA), points of interest (OpenStreetMap), patents (USPTO ODP), US case law (CourtListener / Free Law Project), Federal Register, Wikipedia, scientific papers (arXiv / PubMed / Semantic Scholar), AI summarize / translate / extract / screenshot / image-describe, image compression, DNS / WHOIS, crypto address-validate + EVM gas oracle, OFAC sanctions screening, US Census ACS ",
+      "source": "https://github.com/2s-io/sdk",
+      "installUrl": "npx -y @2sio/mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -92,6 +106,20 @@
       "description": "Brazilian public data for AI agents — companies (CNPJ), addresses (CEP), banks (BACEN), national holidays — via . No auth, no API key. Install:",
       "source": "https://github.com/alanpcf/brasil-data-mcp",
       "installUrl": "npx -y brasil-data-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "alessandro114-scala-mcp-server",
+      "name": "Alessandro114/scala-mcp-server",
+      "description": "Search and enrich data from 250M+ companies across 50+ countries. Company lookup by name, VAT, or ID, NACE sector search, and financial data from official EU business registries. Free tier: 50 lookups/month. Install:",
+      "source": "https://github.com/Alessandro114/scala-mcp-server",
+      "installUrl": "npx -y scala-mcp-server",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -176,6 +204,20 @@
       "description": "Real-time cost observability for MCP tool calls. Transparent proxy auto-detects every MCP client (Claude Desktop, Cursor, Windsurf, VS Code, Claude Code, Zed, Continue.dev, Cline, Goose) and attributes spend per tool, per project, per end-customer. install. Free tier 25K calls/month, no card. MIT proxy on npm. EU-hosted, GDPR-ready.",
       "source": "https://github.com/andreisirbu91-lab/MCPSpend",
       "installUrl": "npx -y @mcpspend/proxy add",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "anythink-cloud-anythink-cli",
+      "name": "anythink-cloud/anythink-cli",
+      "description": "# - Build and run a complete backend from your agent on the Anythink platform: relational data with row-/field-level security, full-text + semantic + geo search, RBAC + BYOK, a workflow/automation engine, a growth & retention engine (email, actionable push, promotions, per-user referral codes + rewards, points/credits), payments + marketplace billing, and a growing catalog of integrations (Claude, OpenAI, Slack, Google, GitHub…) — driven through one CLI-backed MCP tool. Install with",
+      "source": "https://github.com/anythink-cloud/anythink-cli",
+      "installUrl": "npx -y @anythink-cloud/mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -611,6 +653,20 @@
       "description": "Render music notation (SVG + MusicXML + MIDI) from a JSON score, validate input, analyze MusicXML harmonically, and search a curated music-theory knowledge base. Free, no auth.",
       "source": "https://github.com/delmas41/gradusnotation",
       "installUrl": "npx -y @gradusmusic/notation-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "deusdata-codebase-memory-mcp",
+      "name": "DeusData/codebase-memory-mcp",
+      "description": "Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service links. 159 languages via tree-sitter + Hybrid LSP, sub-ms structural queries, ~99% fewer tokens than grep. Single static binary, zero dependencies, 100% local.",
+      "source": "https://github.com/DeusData/codebase-memory-mcp",
+      "installUrl": "npx -y codebase-memory-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1503,10 +1559,10 @@
       "verified": false
     },
     {
-      "id": "malamutemayhem-unclick-agent-native-endpoints",
-      "name": "malamutemayhem/unclick-agent-native-endpoints",
-      "description": "110+ tools for AI agents spanning social media, finance, gaming, music, AU-specific services, and utilities. Zero-config local tools plus platform connectors.",
-      "source": "https://github.com/malamutemayhem/unclick-agent-native-endpoints",
+      "id": "malamutemayhem-unclick",
+      "name": "malamutemayhem/unclick",
+      "description": "The universal remote for AI: one MCP install gives any compatible agent 450+ callable endpoints across 60+ integrations, plus persistent cross-session memory.",
+      "source": "https://github.com/malamutemayhem/unclick",
       "installUrl": "npx -y @unclick/mcp-server",
       "authType": "none",
       "envVars": [],
@@ -1637,6 +1693,20 @@
       "description": "AI simulated crypto trading with real-time Upbit prices. 11 tools for registration, trading, and autonomous AI investment with 100M KRW virtual balance.",
       "source": "https://github.com/mikusnuz/pexbot-mcp",
       "installUrl": "npx -y @pexbot/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mkturner74-botverse-mcp",
+      "name": "MkTurner74/botverse-mcp",
+      "description": "Video transcoding (MP4, WebM, ProRes, GIF, MP3) and document conversion (PDF, DOCX, HTML, Markdown, XLSX) for AI agents. Per-job billing, no AWS or FFmpeg setup.",
+      "source": "https://github.com/MkTurner74/botverse-mcp",
+      "installUrl": "npx -y botverse-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1842,6 +1912,20 @@
       "verified": false
     },
     {
+      "id": "node-man-dechonet-mcp",
+      "name": "node-man/dechonet-mcp",
+      "description": "Domain security reconnaissance for AI agents. 13 tools — DNS + DNSSEC, SSL/TLS chain & grade, HTTP security headers, SPF/DKIM/DMARC email auth, TCP port scan, ASN, RDAP/WHOIS — plus a one-shot returning a 0-100 Health Score (A–F). Free, no API key.",
+      "source": "https://github.com/node-man/dechonet-mcp",
+      "installUrl": "npx -y dechonet-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "notion",
       "name": "Notion",
       "description": "Read and write Notion pages and databases",
@@ -1908,6 +1992,20 @@
       "verified": false
     },
     {
+      "id": "patent-precheck-patent-precheck-mcp",
+      "name": "Patent-PreCheck/patent-precheck-mcp",
+      "description": "Patentability pre-check for code — USPTO statutory pillar scores (§101 eligibility, §102 novelty, §103 non-obviousness, §112 documentation), filing-readiness, and prior-art signals. No API keys; runs as a CLI or MCP server. Tools: , , . Install:",
+      "source": "https://github.com/Patent-PreCheck/patent-precheck-mcp",
+      "installUrl": "npx -y @patentprecheck/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "paulhkang94-markview",
       "name": "paulhkang94/markview",
       "description": "Native macOS markdown preview app with MCP server. Open and render Markdown files in MarkView directly from AI assistants via",
@@ -1927,6 +2025,20 @@
       "description": "AI-powered observability platform for agents. Auto-discovers and recommends MCP servers; built-in connectors for GA4, Vercel, GitHub, and Sentry with ROI tracking.",
       "source": "https://github.com/perceptdot/percept",
       "installUrl": "npx -y @perceptdot/core",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "posteverywhere-mcp",
+      "name": "posteverywhere/mcp",
+      "description": "Hosted MCP server to schedule and publish across 11 social platforms (Instagram, LinkedIn, TikTok, X, YouTube, Facebook, Threads, Pinterest, Bluesky, Discord, Telegram). 32 tools covering posts, campaigns, bulk operations, media, analytics, webhooks, and AI captions. Connect with one URL, or run locally via",
+      "source": "https://github.com/posteverywhere/mcp",
+      "installUrl": "npx -y @posteverywhere/mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1988,7 +2100,7 @@
     {
       "id": "puppeteer",
       "name": "Puppeteer",
-      "description": "Browser automation — navigate pages, click, screenshot, scrape",
+      "description": "Browser automation - navigate pages, click, screenshot, scrape",
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
       "installUrl": "npx -y @modelcontextprotocol/server-puppeteer",
       "authType": "none",
@@ -2124,6 +2236,20 @@
       "verified": false
     },
     {
+      "id": "sagapeak-artifacta-mcp",
+      "name": "SagaPeak/artifacta-mcp",
+      "description": "The artifact store for AI agents. Every output your agents produce — persisted, retrievable, shareable. Across runs, sessions, and tools. Session/agent metadata, content-hash dedup, expiring share links; 11 tools with path-confined uploads and destructive actions gated by default. TypeScript ( ) and Python ( ).",
+      "source": "https://github.com/SagaPeak/artifacta-mcp",
+      "installUrl": "npx -y @artifacta-mcp/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "saranshbamania-mobile-device-mcp",
       "name": "saranshbamania/mobile-device-mcp",
       "description": "49-tool MCP server for AI control of Android devices and iOS simulators. AI visual analysis (Claude + Gemini), Flutter widget tree inspection, smart element finding (<1ms), video recording, and test script generation.",
@@ -2143,6 +2269,20 @@
       "description": "Canonical MCP server resolver. Returns the right MCP for any agent intent with an invocation-ready snippet and an Ed25519-signed trust passport. Cross-registry coverage.",
       "source": "https://github.com/Savirinc/unfragile-mcp-server",
       "installUrl": "npx -y @unfragile/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "savvly-savvly-mcp",
+      "name": "Savvly/savvly-mcp",
+      "description": "Savvly Longevity Benefit Fund: retirement projections (lump-sum, monthly, and full trajectory), product comparisons, eligibility checks, and FAQ search. An SEC-registered fund offering market upside plus longevity protection. Remote at api.savvly.com/mcp or",
+      "source": "https://github.com/Savvly/savvly-mcp",
+      "installUrl": "npx -y @savvly/mcp-server",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2404,6 +2544,20 @@
       "tier": "free"
     },
     {
+      "id": "starecz-karea-mcp",
+      "name": "starecz/karea-mcp",
+      "description": "MCP server for task manager. 44 tools to create, edit, close, recap, and link your dev tasks while Claude Code or Cursor codes. Per-task open questions, attached resources, Jira links, productivity recap.",
+      "source": "https://github.com/starecz/karea-mcp",
+      "installUrl": "npx -y karea-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "stifler7-memex",
       "name": "STiFLeR7/memex",
       "description": "Developer context continuity system. Watches your git repos and builds a temporal knowledge graph of modules, symbols, decisions, and open problems via Graphiti + Neo4j, then serves it to any AI coding agent over MCP. Every edge carries a validity window and a confidence score that decays over time. 12 tools across read and write. Install via . MIT licensed.",
@@ -2481,11 +2635,39 @@
       "verified": false
     },
     {
+      "id": "taisly-agent",
+      "name": "taisly/agent",
+      "description": "Taisly Agent Kit MCP server for AI agent social media video publishing. Discover connected accounts, validate videos, publish or schedule posts to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook through Taisly. Install: . Requires a Taisly API key and connected accounts.",
+      "source": "https://github.com/taisly/agent",
+      "installUrl": "npx -y @taisly/agent mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "tamaspetki-headlesstracker",
       "name": "tamasPetki/HeadlessTracker",
       "description": "Local-first crypto portfolio aggregation across exchanges (Bybit, Binance), EVM and Solana wallets, and Polymarket. Read-only credentials stored in your OS keychain, no hosted service. Data aggregation only, not financial advice. Install with",
       "source": "https://github.com/tamasPetki/HeadlessTracker",
       "installUrl": "npx -y headless-tracker",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "tatavarthitarun-nowsecure-mcp-server",
+      "name": "tatavarthitarun/nowsecure-mcp-server",
+      "description": "MCP server for NowSecure Platform mobile security testing. List applications, pull remediation findings via GraphQL, and generate PDF reports locally (bypasses broken UI export). Published as",
+      "source": "https://github.com/tatavarthitarun/nowsecure-mcp-server",
+      "installUrl": "npx -y nowsecure-mcp-server",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2756,6 +2938,29 @@
       "verified": false
     },
     {
+      "id": "xquik",
+      "name": "Xquik",
+      "description": "MCP server for X data workflows, searches, account insights, and webhook automation.",
+      "icon": "search",
+      "source": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "installUrl": "https://xquik.com/mcp",
+      "authType": "env",
+      "envVars": [
+        {
+          "key": "XQUIK_API_KEY",
+          "label": "Xquik API Key",
+          "url": "https://docs.xquik.com/mcp/overview"
+        }
+      ],
+      "tags": [
+        "social",
+        "search",
+        "automation"
+      ],
+      "verified": false,
+      "needsReview": true
+    },
+    {
       "id": "ygao2005-scholar-feed-mcp",
       "name": "YGao2005/scholar-feed-mcp",
       "description": "Semantic search over 600k+ CS/AI papers with citation-graph traversal, full-text extraction, embeddings, and BibTeX export. Works anonymously or with a free key. Install:",
@@ -2775,6 +2980,20 @@
       "description": "L402 Lightning paywall + Hashcash proof-of-work gate for MCP tool calls. Free tier solves a PoW challenge; paid tier pays a Lightning invoice via self-hosted LNBits. No accounts, no API keys, no third-party SaaS. Drop-in middleware for any MCP server.",
       "source": "https://github.com/zekebuilds-lab/captcha-mcp",
       "installUrl": "npx -y @powforge/captcha-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "zengliangyi-chatcrystal",
+      "name": "ZengLiangYi/ChatCrystal",
+      "description": "Local-first AI PKM memory server for coding conversations. Imports Claude Code, Cursor, Codex CLI, Trae, and GitHub Copilot chats into notes, semantic search, tag graphs, Markdown exports, and reusable MCP memory.",
+      "source": "https://github.com/ZengLiangYi/ChatCrystal",
+      "installUrl": "npx -y chatcrystal mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
