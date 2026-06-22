@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-18",
+  "updatedAt": "2026-06-22",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -36,6 +36,20 @@
       "description": "Unified API for AI agents — 180+ tools across geocoding, weather (NWS), climate stations (NOAA), earthquakes (USGS), tides (NOAA), points of interest (OpenStreetMap), patents (USPTO ODP), US case law (CourtListener / Free Law Project), Federal Register, Wikipedia, scientific papers (arXiv / PubMed / Semantic Scholar), AI summarize / translate / extract / screenshot / image-describe, image compression, DNS / WHOIS, crypto address-validate + EVM gas oracle, OFAC sanctions screening, US Census ACS ",
       "source": "https://github.com/2s-io/sdk",
       "installUrl": "npx -y @2sio/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "aetherwave-studio-aetherwave-mcp",
+      "name": "AetherWave-Studio/aetherwave-mcp",
+      "description": "One tool surface for music, image, video, and audio generation across Suno, Grok Imagine, Seedance, Kling, Hailuo, Wan, VEO, Ideogram, and GPT Image 2. Generate, edit, upscale, reframe, and master through one API key and one credit pool. First key includes free credits, no card required.",
+      "source": "https://github.com/AetherWave-Studio/aetherwave-mcp",
+      "installUrl": "npx -y @aetherwave-studio/mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -356,6 +370,20 @@
       "verified": false
     },
     {
+      "id": "baodq06-memocall",
+      "name": "baodq06/memocall",
+      "description": "Recall past Claude Code conversations from any project. Lists and searches your sessions, then loads one on demand as clean, compact Markdown — with outline, turn-range, and in-session search for large sessions. Read-only over local transcripts; collapses tool calls to stay under the context cap.",
+      "source": "https://github.com/baodq06/memocall",
+      "installUrl": "npx -y memocall",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "bartonguestier1725-collab-scout-mcp",
       "name": "bartonguestier1725-collab/scout-mcp",
       "description": "Multi-source search across code registries (GitHub, npm, PyPI), academic indexes (arXiv, Semantic Scholar), social platforms (HN, Reddit, X), and community blogs (Dev.to, Hashnode, Qiita, Zenn). Parallel fetch with structured JSON output.",
@@ -375,6 +403,20 @@
       "description": "Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without regenerating images. 37 tools covering 11 QR types, one-command install via",
       "source": "https://github.com/benswel/qr-agent-core",
       "installUrl": "npx -y qr-for-agent",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "bitcompare-mcp-server",
+      "name": "bitcompare/mcp-server",
+      "description": "Crypto rates (lending, staking, borrowing), coin metadata, aggregated prices, market stats, stablecoin peg-stability, and symbol resolution. 18 tools. Hosted at or via",
+      "source": "https://github.com/bitcompare/mcp-server",
+      "installUrl": "npx -y @bitcompare/mcp-server",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -667,6 +709,20 @@
       "description": "Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service links. 159 languages via tree-sitter + Hybrid LSP, sub-ms structural queries, ~99% fewer tokens than grep. Single static binary, zero dependencies, 100% local.",
       "source": "https://github.com/DeusData/codebase-memory-mcp",
       "installUrl": "npx -y codebase-memory-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "devag7-linkedin-mcp",
+      "name": "devag7/linkedin-mcp",
+      "description": "LinkedIn for AI assistants over an authenticated browser session — profiles, people/job/company search, feed, messaging, and gated writes (connect, message, post, react, comment) returned as structured JSON, with built-in rate limiting.",
+      "source": "https://github.com/devag7/linkedin-mcp",
+      "installUrl": "npx -y linkedin-mcp-tools",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -986,6 +1042,20 @@
       "verified": false
     },
     {
+      "id": "focus-gts-eds-mcp-server",
+      "name": "Focus-GTS/eds-mcp-server",
+      "description": "Adobe Edge Delivery Services (AEM EDS) management with 20 tools for preview, publish, bulk operations, content reading, Core Web Vitals, 404 tracking, A/B experiments, site configuration, and redirects. Install:",
+      "source": "https://github.com/Focus-GTS/eds-mcp-server",
+      "installUrl": "npx -y @focusgts/eds-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "foodxdevelopment-foodblock",
       "name": "FoodXDevelopment/foodblock-mcp",
       "description": "17 MCP tools for the food industry. Describe food in plain English and get structured, content-addressed data blocks back. Covers actors, places, ingredients, products, transforms, transfers, and observations. Works standalone with zero config via",
@@ -1076,6 +1146,20 @@
       "needsReview": false
     },
     {
+      "id": "goldentrii-agentrecall",
+      "name": "Goldentrii/AgentRecall",
+      "description": "Persistent, compounding memory for AI agents across sessions. Uses the Intelligent Distance Protocol to surface the most contextually relevant past memories. Five tools: , , , ,",
+      "source": "https://github.com/Goldentrii/AgentRecall",
+      "installUrl": "npx -y agent-recall-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "google-maps",
       "name": "Google Maps",
       "description": "Places search, directions, and geocoding via Google Maps",
@@ -1132,6 +1216,20 @@
       "description": "Accurate astronomical catalog data and observing session planner. 13,000+ deep-sky objects from OpenNGC with deterministic visibility, rise/transit/set, and alt/az calculations.",
       "source": "https://github.com/gregario/astronomy-oracle",
       "installUrl": "npx -y astronomy-oracle",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "gurupdf-gurupdf-mcp",
+      "name": "GuruPDF/gurupdf-mcp",
+      "description": "Convert, compress, merge, split, and OCR PDFs, plus convert between 100+ file formats (Word, Excel, PowerPoint, images, ebooks, video) from any AI agent. Backed by the GuruPDF API; free tier with daily credits, zero-config via",
+      "source": "https://github.com/GuruPDF/gurupdf-mcp",
+      "installUrl": "npx -y gurupdf-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1281,6 +1379,20 @@
       "verified": false
     },
     {
+      "id": "jabbawocky-proposalcraft",
+      "name": "jabbawocky/proposalcraft",
+      "description": "MCP server that drafts client proposals in your own voice. Save 2-3 of your winning proposals, paste a new brief, and Claude generates a ready-to-send draft. No API key, no cloud — local storage only.",
+      "source": "https://github.com/jabbawocky/proposalcraft",
+      "installUrl": "npx -y github:jabbawocky/proposalcraft",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "janaraj-tnl",
       "name": "janaraj/tnl",
       "description": "MCP server for TNL (Typed Natural Language): per-feature English contracts for AI coding agents. 6 tools — , , , , , — let agents look up relevant contracts, propose contract edits, and verify implementations against them. Drop-in via for Claude Code, Codex, Gemini.",
@@ -1401,6 +1513,20 @@
       "description": "Shop on amazon.in via LLM. Three tools: product search with \"cheapest in stock\" + \"best value\" picks, full product details (price, MRP, discount, rating, stock, seller), and Keepa price history chart links. No API keys, direct HTML scraping with retry on bot-check. Install:",
       "source": "https://github.com/justadityaraj/amazon-in-mcp",
       "installUrl": "npx -y amazon-in-mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "kage-core-kage",
+      "name": "kage-core/Kage",
+      "description": "Verified, git-native memory for coding agents. Memory is plain JSON packets committed in your repo, each checked against the code it cites — hallucinated citations rejected at write, stale or changed memory withheld at recall, plus diff-time stale-catch. Local-only (BM25 + vectors), no account, no API key.",
+      "source": "https://github.com/kage-core/Kage",
+      "installUrl": "npx -y @kage-core/kage-graph-mcp install",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1688,6 +1814,20 @@
       "verified": false
     },
     {
+      "id": "microservices-sh-mcp",
+      "name": "microservices-sh/mcp",
+      "description": "MCP server for microservices.sh: inspect verified Cloudflare-native modules/templates, generate app plans/projects, run checks, and trigger confirmation-gated preview deploys. Install via",
+      "source": "https://github.com/microservices-sh/mcp",
+      "installUrl": "npx -y @microservices-sh/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "mikusnuz-pexbot-mcp",
       "name": "mikusnuz/pexbot-mcp",
       "description": "AI simulated crypto trading with real-time Upbit prices. 11 tools for registration, trading, and autonomous AI investment with 100M KRW virtual balance.",
@@ -1870,6 +2010,20 @@
       "verified": false
     },
     {
+      "id": "namixai-funding-mcp",
+      "name": "namixai/funding-mcp",
+      "description": "Multi-venue perpetual funding-rate data & cross-exchange funding arbitrage across 20+ exchanges (incl. HIP-3 sub-DEXes). Free screener; paid signals via x402 micropayments with built-in auto-pay. 3 tools, stdio. Install with",
+      "source": "https://github.com/namixai/funding-mcp",
+      "installUrl": "npx -y @usenami/funding-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "namixai-signer-mcp",
       "name": "namixai/signer-mcp",
       "description": "Keyless CEX/DEX signing for AI trading agents (Binance, OKX, Bybit, KuCoin, Hyperliquid, Asterdex). Signing keys never leave an AWS Nitro Enclave (attested PCR0); agents receive policy-bounded signatures, not credentials. Built to survive prompt injection and supply-chain key leaks. 5 tools, stdio. Install with",
@@ -1964,6 +2118,20 @@
       "verified": false
     },
     {
+      "id": "openfate-ai-bazi-mcp",
+      "name": "openfate-ai/bazi-mcp",
+      "description": "Deterministic Bazi / Four Pillars MCP server with True Solar Time, lunar/solar conversion, Da Yun luck cycles, branch interactions, reverse Bazi lookup, and OpenFate calculation metadata. Install:",
+      "source": "https://github.com/openfate-ai/bazi-mcp",
+      "installUrl": "npx -y @openfate/bazi-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "openpulsechain-public",
       "name": "@openpulsechain/mcp-server",
       "description": "PulseChain on-chain analytics: token safety scores (0-100), honeypot detection, whale tracking, smart money feed, scam alerts, DEX volume, bridge stats, holder leagues. 11 free + 9 pro tools.",
@@ -1983,6 +2151,20 @@
       "description": "Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes , , and for the full acquisition flow. Hosted, $0.99 per run. Install: . Sign up:",
       "source": "https://github.com/opusforge/gorilla-mcp",
       "installUrl": "npx -y github:opusforge/gorilla-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "patchistry-patchistry-mcp-server",
+      "name": "patchistry/patchistry-mcp-server",
+      "description": "Official MCP server for , the first DTC fashion brand listed in the official MCP Registry. AI agent commerce tools for the velcro-patch hat system: , , , , and . Helps ChatGPT, Claude, Cursor, and Perplexity recommend complete hat + patch builds when shoppers ask about custom hats, bachelorette gifts, dad gifts, or 4th of July drops. Install via",
+      "source": "https://github.com/patchistry/patchistry-mcp-server",
+      "installUrl": "npx -y patchistry-mcp-server",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2341,6 +2523,20 @@
       "tier": "free",
       "verified": true,
       "needsReview": false
+    },
+    {
+      "id": "sequenzy-mcp",
+      "name": "Sequenzy/mcp",
+      "description": "Email marketing automation MCP server for Sequenzy. Manage subscribers, lists, segments, templates, campaigns, sequences, transactional emails, analytics, and AI-generated email content. Install:",
+      "source": "https://github.com/Sequenzy/mcp",
+      "installUrl": "npx -y @sequenzy/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "sf1nx-x402station-mcp",
@@ -2961,11 +3157,39 @@
       "needsReview": true
     },
     {
+      "id": "yenchieh-diagramzu-mcp",
+      "name": "yenchieh/diagramzu-mcp",
+      "description": "Let your AI author Mermaid diagrams (flowchart, sequence, ER, mindmap) in a shared workspace, then read, comment on, embed, and present them at a clean URL — instead of pasting back hundreds of lines of prose. Hosted endpoint or local . 14 tools incl. diagram CRUD, version history, comments, presentation decks, and lints.",
+      "source": "https://github.com/yenchieh/diagramzu-mcp",
+      "installUrl": "npx -y @diagramzu/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "ygao2005-scholar-feed-mcp",
       "name": "YGao2005/scholar-feed-mcp",
       "description": "Semantic search over 600k+ CS/AI papers with citation-graph traversal, full-text extraction, embeddings, and BibTeX export. Works anonymously or with a free key. Install:",
       "source": "https://github.com/YGao2005/scholar-feed-mcp",
       "installUrl": "npx -y scholar-feed-mcp init",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "yolfinance-yolfi-agent",
+      "name": "yolfinance/yolfi-agent",
+      "description": "Yolfi Payments MCP lets AI coding agents register Yolfi workspaces, create crypto checkout payment links, configure webhooks, verify webhook signatures, and check payment status. Install with",
+      "source": "https://github.com/yolfinance/yolfi-agent",
+      "installUrl": "npx -y @yolfi/agent mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
