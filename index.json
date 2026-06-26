@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-22",
+  "updatedAt": "2026-06-26",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -426,6 +426,20 @@
       "verified": false
     },
     {
+      "id": "bluesprince-thiri-mcp",
+      "name": "BluesPrince/thiri-mcp",
+      "description": "Deterministic music-theory server: chord & Roman-numeral analysis, voicing, and reharmonization — computed, not hallucinated. Hosted at mcp.thiri.ai, no third-party account required.",
+      "source": "https://github.com/BluesPrince/thiri-mcp",
+      "installUrl": "npx -y @bluesprincemedia/thiri-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "brave-search",
       "name": "Brave Search",
       "description": "Web and local search via Brave Search API",
@@ -704,6 +718,20 @@
       "verified": false
     },
     {
+      "id": "deslay1-amendor-mcp",
+      "name": "deslay1/amendor-mcp",
+      "description": "Lets the non-technical people you build for request UI changes directly on your live site, then pulls each request (with the exact element and page) into your coding agent so it builds it on a branch and opens a pull request. Works with Claude Code, Cursor, Cline, Codex, and remote agents over HTTP.",
+      "source": "https://github.com/deslay1/amendor-mcp",
+      "installUrl": "npx -y amendor-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "deusdata-codebase-memory-mcp",
       "name": "DeusData/codebase-memory-mcp",
       "description": "Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service links. 159 languages via tree-sitter + Hybrid LSP, sub-ms structural queries, ~99% fewer tokens than grep. Single static binary, zero dependencies, 100% local.",
@@ -880,6 +908,20 @@
       "description": "Expose a company's complete design system (colors, typography, logos, components, guidelines, CSS tokens) to AI tools via MCP. Auto-parses CSS / Markdown / PDF / SVG / fonts; supports vs contexts with shared overrides; ships 12 tools, 16+ resources under , and 4 prompts; stdio + SSE + Streamable HTTP transports. Install via NPM:",
       "source": "https://github.com/ejwhite7/brandkit-mcp",
       "installUrl": "npx -y brandkit-mcp serve",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "eliottreich-taskbounty-check",
+      "name": "eliottreich/taskbounty-check",
+      "description": "Local-only GitHub Actions and CI maintenance scanner for AI-built apps. Exposes , , and to MCP clients; reads only allowlisted workflow and update configuration, modifies nothing, makes no outbound requests by default, and has zero runtime dependencies. Run with",
+      "source": "https://github.com/eliottreich/taskbounty-check",
+      "installUrl": "npx -y taskbounty-check@0.1.6 mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1225,6 +1267,20 @@
       "verified": false
     },
     {
+      "id": "gtcc777-pulsenetwork-mcp",
+      "name": "GTCC777/pulsenetwork-mcp",
+      "description": "One MCP server exposing 66 specialized intelligence APIs (660+ endpoints) — finance, crypto, legal, immigration, healthcare cost, real estate, tax, climate, sports, science, and more — each an x402 pay-per-call tool in USDC on Base and Solana. Includes a meta-tool over the whole network and a cross-vertical referral graph. No API keys.",
+      "source": "https://github.com/GTCC777/pulsenetwork-mcp",
+      "installUrl": "npx -y mcp-pulsenetwork",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "gurupdf-gurupdf-mcp",
       "name": "GuruPDF/gurupdf-mcp",
       "description": "Convert, compress, merge, split, and OCR PDFs, plus convert between 100+ file formats (Word, Excel, PowerPoint, images, ebooks, video) from any AI agent. Backed by the GuruPDF API; free tier with daily credits, zero-config via",
@@ -1351,6 +1407,20 @@
       "verified": false
     },
     {
+      "id": "innarm-blank-invoice-maker-mcp",
+      "name": "InnarM/blank-invoice-maker-mcp",
+      "description": "Create free, no-signup invoices from your AI assistant. Returns a deep link that opens pre-filled — review and download a watermark-free PDF. Invoice data stays in the browser.",
+      "source": "https://github.com/InnarM/blank-invoice-maker-mcp",
+      "installUrl": "npx -y blank-invoice-maker-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "iprashantraj-mcp-discord-bridge",
       "name": "iprashantraj/mcp-discord-bridge",
       "description": "Discord MCP server with 46 tools for channels, messages, forums, webhooks, members, roles, threads, and moderation. Zero-install via . Also runs as a standalone bot with slash commands.",
@@ -1384,6 +1454,20 @@
       "description": "MCP server that drafts client proposals in your own voice. Save 2-3 of your winning proposals, paste a new brief, and Claude generates a ready-to-send draft. No API key, no cloud — local storage only.",
       "source": "https://github.com/jabbawocky/proposalcraft",
       "installUrl": "npx -y github:jabbawocky/proposalcraft",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "jabbawocky-statuscraft",
+      "name": "jabbawocky/statuscraft",
+      "description": "MCP server that checks the live status of 3831 software services in real time. Ask your AI agent \"is GitHub down?\" or \"what's wrong with Sentry?\" — and get a live answer pulled directly from official status pages, including full incident detail when something is broken.",
+      "source": "https://github.com/jabbawocky/statuscraft",
+      "installUrl": "npx -y github:jabbawocky/statuscraft",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1629,6 +1713,32 @@
       "needsReview": false
     },
     {
+      "id": "linear-remote",
+      "name": "Linear (OAuth)",
+      "description": "Linear issues and projects via Linear's hosted MCP — sign in with OAuth, no API key to paste",
+      "icon": "linear",
+      "source": "https://linear.app/docs/mcp",
+      "url": "https://mcp.linear.app/sse",
+      "authType": "oauth",
+      "oauth": {
+        "scopes": [
+          "read",
+          "write"
+        ],
+        "supportsDynamicRegistration": true
+      },
+      "envVars": [],
+      "tags": [
+        "issues",
+        "project-management",
+        "team"
+      ],
+      "category": "Developer tools",
+      "tier": "workforce",
+      "verified": false,
+      "needsReview": true
+    },
+    {
       "id": "lithtrix-lithtrix-mcp",
       "name": "lithtrix/lithtrix-mcp",
       "description": "Memory Consolidation for AI agents across vendors, owners, and time. Persistent memory, credibility-scored web search, browser fetch, and shared Commons pool under a stable key. Self-registration in one API call, no dashboard required.",
@@ -1676,6 +1786,20 @@
       "description": "is a Kanban content production manager for YouTube, Instagram, TikTok and Podcast creators. 32 tools for managing productions, stages, frames (cards), checklists, comments, and labels. Ideas land in an Idea Pool and graduate into full productions with stages (Idea → Scripting → Filming → Editing → Published). All tools ship with MCP safety annotations.",
       "source": "https://github.com/Lukaris/framedeck-mcp",
       "installUrl": "npx -y framedeck-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "mahanuj-mcp-multi-db",
+      "name": "mahAnuj/mcp-multi-db",
+      "description": "One MCP server for PostgreSQL, MySQL, and SQLite. Unified read-only tools ( , , , ) across all three engines with two-layer read-only enforcement (SQL-text guard + DB-level read-only transactions). Install:",
+      "source": "https://github.com/mahAnuj/mcp-multi-db",
+      "installUrl": "npx -y mcp-multi-db",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2151,6 +2275,20 @@
       "description": "Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes , , and for the full acquisition flow. Hosted, $0.99 per run. Install: . Sign up:",
       "source": "https://github.com/opusforge/gorilla-mcp",
       "installUrl": "npx -y github:opusforge/gorilla-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "ozers-hooksense-mcp",
+      "name": "ozers/hooksense-mcp",
+      "description": "Webhook & callback layer for AI agents: create a callback URL, then to block until the webhook lands — signature-verified and decrypted — instead of polling. Verify HMAC, list/replay callbacks.",
+      "source": "https://github.com/ozers/hooksense-mcp",
+      "installUrl": "npx -y @hooksense/mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -3106,6 +3244,20 @@
       "verified": false
     },
     {
+      "id": "woladi-macos-vision-mcp",
+      "name": "woladi/macos-vision-mcp",
+      "description": "Local OCR and image analysis via Apple Vision Framework. Wraps macOS's native Vision API to expose OCR for images and PDFs (with reading-order paragraphs, bounding boxes, line/paragraph IDs, and confidence), face / barcode / QR / document-corner detection, and image classification — all as MCP tools any client (Claude Code, Claude Desktop, Cursor, Codex CLI) can call. ~97% token savings vs sending raw images. Fully offline, no API keys, files never leave the Mac. One-line install:",
+      "source": "https://github.com/woladi/macos-vision-mcp",
+      "installUrl": "npx -y macos-vision-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "xjtlumedia-ai-hr-management-toolkit",
       "name": "XJTLUmedia/AI-HR-Management-Toolkit",
       "description": "AI-powered resume parser and full Applicant Tracking System with 21 MCP tools. Parse PDFs, DOCX, TXT, Markdown, and URLs into structured JSON; extract skills, experience, and keywords; score and rank candidates; run a full ATS pipeline covering jobs, candidates, interviews, offers, notes, and analytics. 20 of 21 tools are 100% algorithmic — no API keys required.",
@@ -3152,9 +3304,7 @@
         "social",
         "search",
         "automation"
-      ],
-      "verified": false,
-      "needsReview": true
+      ]
     },
     {
       "id": "yenchieh-diagramzu-mcp",
