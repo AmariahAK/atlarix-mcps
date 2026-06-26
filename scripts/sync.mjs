@@ -276,7 +276,11 @@ function applyOverrides(map, doc) {
 
 function finalizeEntry(e) {
   const o = stripInternal(e);
-  if (o.authType !== "env" && o.authType !== "none") o.authType = "none";
+  // "oauth" is a valid hand-curated auth type (HTTP MCPs); only coerce truly
+  // unknown values. Auto-discovered upstream entries are still env/none.
+  if (o.authType !== "env" && o.authType !== "none" && o.authType !== "oauth") {
+    o.authType = "none";
+  }
   if (!Array.isArray(o.envVars)) o.envVars = [];
   if (o.needsReview) stats.needsReview++;
   return o;
@@ -307,6 +311,15 @@ async function main() {
   applyOverrides(merged, overrides);
 
   let mcps = [...merged.values()].map(finalizeEntry).filter((e) => {
+    // OAuth (remote HTTP) MCPs are launched from `url`, not `installUrl`.
+    if (e.authType === "oauth") {
+      if (!e.url || !String(e.url).trim()) {
+        stats.droppedEmptyInstall++;
+        console.warn(`dropping ${e.id}: oauth entry missing url`);
+        return false;
+      }
+      return true;
+    }
     if (!e.installUrl || !String(e.installUrl).trim()) {
       stats.droppedEmptyInstall++;
       console.warn(`dropping ${e.id}: empty installUrl`);

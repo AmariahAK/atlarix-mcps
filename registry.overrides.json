@@ -333,6 +333,7 @@
       "verified": false,
       "needsReview": true
     },
+
     "xquik": {
       "id": "xquik",
       "name": "Xquik",
@@ -348,7 +349,25 @@
           "url": "https://docs.xquik.com/mcp/overview"
         }
       ],
-      "tags": ["social", "search", "automation"],
+      "tags": ["social", "search", "automation"]
+    },
+    "linear-remote": {
+      "id": "linear-remote",
+      "name": "Linear (OAuth)",
+      "description": "Linear issues and projects via Linear's hosted MCP — sign in with OAuth, no API key to paste",
+      "icon": "linear",
+      "source": "https://linear.app/docs/mcp",
+      "url": "https://mcp.linear.app/sse",
+      "authType": "oauth",
+      "oauth": {
+        "scopes": ["read", "write"],
+        "supportsDynamicRegistration": true
+      },
+      "envVars": [],
+      "tags": ["issues", "project-management", "team"],
+      "category": "Developer tools",
+      "tier": "workforce",
+
       "verified": false,
       "needsReview": true
     }

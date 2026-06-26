@@ -12,6 +12,32 @@ To fix metadata, env vars, labels, or to add a community server that is not pick
 
 The file is an object `mcps` whose keys are registry **`id`** strings. Values are partial [`McpRegistryEntry`](https://github.com/AmariahAK/Atlarix/blob/main/src/shared/mcp-registry.ts)-shaped objects. They are **deep-merged** onto the automated entries; **override fields win**. To add a brand-new entry, use a new `id` key and supply at least `name`, `description`, `installUrl`, `authType` (`none` or `env`), and `envVars` (array, possibly empty).
 
+### OAuth (remote HTTP) MCPs
+
+For hosted MCP servers that users sign in to (no API key to paste), set `authType: "oauth"` and provide `url` (the remote HTTP/SSE endpoint) **instead of** `installUrl`. Add an `oauth` object to describe the flow — every field is optional because most servers expose OAuth metadata discovery + dynamic client registration:
+
+```json
+"linear-remote": {
+  "name": "Linear (OAuth)",
+  "description": "Linear issues and projects via Linear's hosted MCP — sign in with OAuth",
+  "icon": "linear",
+  "source": "https://linear.app/docs/mcp",
+  "url": "https://mcp.linear.app/sse",
+  "authType": "oauth",
+  "oauth": {
+    "serverUrl": "https://mcp.linear.app",   // optional: authorization server base
+    "clientId": "abc123",                      // optional: omit for dynamic registration
+    "scopes": ["read", "write"],               // optional: scopes to request
+    "discoveryUrl": "https://…/.well-known/oauth-authorization-server", // optional
+    "supportsDynamicRegistration": true         // optional, defaults to true
+  },
+  "envVars": [],
+  "tier": "workforce"
+}
+```
+
+OAuth entries are launched from `url` (not `installUrl`) and surface a one-click **Connect** button in the marketplace. Auto-discovered upstream entries are only ever `env`/`none`; `oauth` is hand-curated here.
+
 ### Optional JSON fields
 
 - **`verified`**: reserved for official / vetted rows from upstream automation (Atlarix may ignore this today).
