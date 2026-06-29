@@ -59,6 +59,8 @@ Amariah Kamau, NorahLabs — May 2026
 
 The paper describes how Blueprint's section-scoped graph interacts with the tool layer — including how MCP tool results are handled in post-turn summarisation.
 
+Atlarix's harness is benchmarked too: [**atlarix.dev/benchmark**](https://atlarix.dev/benchmark) is the official, continually-updated home for every Atlarix benchmark — Terminal-Bench and beyond — with raw result files and full reproduction steps.
+
 ## Related repos
 
 - **[atlarix-skills](https://github.com/AmariahAK/atlarix-skills)** — Apache-2.0 skill registry for Settings → Skills (**Pro / Workforce**).
