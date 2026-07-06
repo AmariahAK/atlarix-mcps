@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-07-06",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -92,6 +92,20 @@
       "description": "Agent marketplace and services MCP server for AgentLux. Browse marketplace items, manage agent identity, creator workflows, service hires, social flows, and Base/x402 commerce through 33 tools. Install via",
       "source": "https://github.com/agentlux/agentlux-mcp",
       "installUrl": "npx -y @agentlux/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "ai-directory-partners-tooldirectory-mcp",
+      "name": "AI-Directory-Partners/tooldirectory-mcp",
+      "description": "Search a catalog of 2,000+ AI tools, compare them, find alternatives, and check whether a tool is still active, defunct, or acquired. Hosted remote MCP at or",
+      "source": "https://github.com/AI-Directory-Partners/tooldirectory-mcp",
+      "installUrl": "npx -y tooldirectory-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -255,6 +269,20 @@
       "verified": false
     },
     {
+      "id": "ashutoshraj97-agentready-mcp",
+      "name": "AshutoshRaj97/agentready-mcp",
+      "description": "Make any website queryable by AI agents. Index a site then ask questions and get cited answers grounded in its content via RAG. Tools: and",
+      "source": "https://github.com/AshutoshRaj97/agentready-mcp",
+      "installUrl": "npx -y @agentreadyweb/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "astroway-astroway-mcp",
       "name": "astroway/astroway-mcp",
       "description": "Comprehensive astrology MCP exposing every endpoint of the AstroWay Calculation API — natal charts, synastry, transits, Vedic dashas (Vimshottari, Yogini, Ashtottari, Kalachakra), 16 Vargas, Tarot (Rider-Waite-Smith / Marseille / Lenormand), Numerology (5 systems), Human Design, AI horoscopes. Sub-arcsecond Swiss Ephemeris precision, 10 000 free credits/month. Install:",
@@ -389,6 +417,20 @@
       "description": "Multi-source search across code registries (GitHub, npm, PyPI), academic indexes (arXiv, Semantic Scholar), social platforms (HN, Reddit, X), and community blogs (Dev.to, Hashnode, Qiita, Zenn). Parallel fetch with structured JSON output.",
       "source": "https://github.com/bartonguestier1725-collab/scout-mcp",
       "installUrl": "npx -y scout-cli",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "beeswaxpat-chronoverify-mcp",
+      "name": "beeswaxpat/chronoverify-mcp",
+      "description": "Verify a photo's capture time and provenance before an agent trusts it: cryptographic C2PA Content Credentials validation against the official trust lists, EXIF and XMP consistency checks, and classical pixel forensics fused into one typed verdict with a 0 to 100 confidence. Free keyless tier, opt-in shareable verdict permalinks, and key-gated signed PDF audit reports. Provenance validation, not a deepfake detector.",
+      "source": "https://github.com/beeswaxpat/chronoverify-mcp",
+      "installUrl": "npx -y chronoverify-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -959,6 +1001,20 @@
       "verified": false
     },
     {
+      "id": "entia-ia-entia-mcp-server",
+      "name": "ENTIA-IA/entia-mcp-server",
+      "description": "Verified business-identity intelligence for AI agents & MCP clients — company verification, VAT, BORME, GLEIF, ownership and risk signals across 34 countries. Remote MCP server, free tier.",
+      "source": "https://github.com/ENTIA-IA/entia-mcp-server",
+      "installUrl": "npx -y mcp-remote https://mcp.entia.systems/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "equivault-equivault-mcp",
       "name": "equivault/equivault-mcp",
       "description": "Official MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via",
@@ -1016,6 +1072,20 @@
       "description": "Share markdown files and text as clean, readable web links via and ; zero setup ( or ).",
       "source": "https://github.com/FacundoLucci/plsreadme",
       "installUrl": "npx -y plsreadme-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "farukkolip-tiktapdown-mcp",
+      "name": "farukkolip/tiktapdown-mcp",
+      "description": "TikTok creator toolkit MCP — download videos without watermark, get curated 15-hashtag sets across 15 niches with strategy tips, look up best posting times for 12 countries, and generate viral hook formulas across 8 categories. No API keys, no signup, free. Install: . Companion to",
+      "source": "https://github.com/farukkolip/tiktapdown-mcp",
+      "installUrl": "npx -y tiktapdown-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1309,6 +1379,20 @@
       "verified": false
     },
     {
+      "id": "helbertparanhos-cloudflare-mcp-pro",
+      "name": "helbertparanhos/cloudflare-mcp-pro",
+      "description": "The most complete Cloudflare MCP — 69 tools over the REST API v4 (DNS, Zones, Workers, KV, R2, D1, Pages, WAF, SSL, Email Routing, Logpush, Workers AI) in a single local stdio server, with a server-side human-approval gate on every mutation.",
+      "source": "https://github.com/helbertparanhos/cloudflare-mcp-pro",
+      "installUrl": "npx -y cloudflare-mcp-pro",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "helbertparanhos-resend-email-mcp",
       "name": "helbertparanhos/resend-email-mcp",
       "description": "The most complete Resend email MCP — full API coverage (75 tools) plus a unique debug/diagnostics layer: deliverability analysis, DNS troubleshooting, email inspection, bounce explanation, and account audit.",
@@ -1491,6 +1575,20 @@
       "verified": false
     },
     {
+      "id": "jcooley8-pincushion-plugin",
+      "name": "jcooley8/pincushion-plugin",
+      "description": "Visual feedback as agent work packets. Stakeholders drop pins on your live app; your AI coding agent reads each pin (selector, screenshot, DOM snippet, thread, acceptance criteria) via MCP and ships the fix, recording the commit/branch/PR on resolve. Install:",
+      "source": "https://github.com/jcooley8/pincushion-plugin",
+      "installUrl": "npx -y pincushion-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "jeongseongmok-tossinvest-openapi-mcp",
       "name": "JeongSeongMok/tossinvest-openapi-mcp",
       "description": "Explore and integrate the Toss Securities (토스증권) Open API — browse endpoints & schemas, follow integration guides, and generate curl/TypeScript/Python code samples. Read-only documentation server, no credentials required.",
@@ -1611,6 +1709,20 @@
       "description": "Verified, git-native memory for coding agents. Memory is plain JSON packets committed in your repo, each checked against the code it cites — hallucinated citations rejected at write, stale or changed memory withheld at recall, plus diff-time stale-catch. Local-only (BM25 + vectors), no account, no API key.",
       "source": "https://github.com/kage-core/Kage",
       "installUrl": "npx -y @kage-core/kage-graph-mcp install",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "keenableai-keenable-mcp",
+      "name": "keenableai/keenable-mcp",
+      "description": "Live web search and clean-markdown page fetch over the Keenable web index. Two tools: , . Keyless by default (1,000 req/hour); an optional API key lifts the cap. Hosted Streamable HTTP at , or run",
+      "source": "https://github.com/keenableai/keenable-mcp",
+      "installUrl": "npx -y @keenable/mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1879,6 +1991,20 @@
       "verified": false
     },
     {
+      "id": "maxaeo-maxaeo-ai-visibility-mcp",
+      "name": "maxaeo/maxaeo-ai-visibility-mcp",
+      "description": "Local-first AI visibility, GEO/AEO, and llms.txt audit MCP server for Claude, Codex, Cursor, and other agents. Checks AI crawler access, robots, sitemap, canonical, metadata, noindex, and JSON-LD; returns local-only and technical foundation scores, top issues, and action plans. Install:",
+      "source": "https://github.com/maxaeo/maxaeo-ai-visibility-mcp",
+      "installUrl": "npx -y maxaeo-ai-visibility-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "mcpware-pagecast",
       "name": "mcpware/pagecast",
       "description": "Record any browser page as GIF or video. AI-driven demo recording with scroll/click/hover interactions via Playwright + ffmpeg.",
@@ -2078,6 +2204,20 @@
       "verified": false
     },
     {
+      "id": "mrz1880-mcp-keycloak-admin",
+      "name": "mrz1880/mcp-keycloak-admin",
+      "description": "Administer Keycloak through its Admin REST API — users, roles, clients, groups, identity providers, federation and events. Safe by default: read-only mode, realm allow-list, and confirmation for destructive actions.",
+      "source": "https://github.com/mrz1880/mcp-keycloak-admin",
+      "installUrl": "npx -y mcp-keycloak-admin",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "muhannad-hash-git-context-mcp",
       "name": "muhannad-hash/git-context-mcp",
       "description": "Answers \"why does this code exist?\" by tracing any line back through the commit, GitHub PR description, and linked issues. Five tools: blame context, commit story, file history, commit search, and file contributors.",
@@ -2181,6 +2321,20 @@
       "description": "Swiss grocery search, weekly promotions, and multi-store shopping plans across Migros, Coop, Aldi, Denner, Lidl, Farmy, Volg, and Otto's. Cross-chain unit-price comparison and three planning strategies (single_store / split_cart / absolute_cheapest). Install via",
       "source": "https://github.com/nicktcode/swissgroceries-mcp",
       "installUrl": "npx -y @nicktcode/swissgroceries-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "nishant-chaudhary5338-mcp-code-indexer",
+      "name": "Nishant-Chaudhary5338/mcp-code-indexer",
+      "description": "Index any TypeScript/React repo (including monorepos) into a queryable code graph. Reverse queries (who-renders, who-calls, find-references), blast-radius analysis, dependency cycles, dead-code orphans, and symbol signatures — exposed over stdio. Install:",
+      "source": "https://github.com/Nishant-Chaudhary5338/mcp-code-indexer",
+      "installUrl": "npx -y code-graph-indexer",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2331,6 +2485,20 @@
       "description": "Native macOS markdown preview app with MCP server. Open and render Markdown files in MarkView directly from AI assistants via",
       "source": "https://github.com/paulhkang94/markview",
       "installUrl": "npx -y mcp-server-markview",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "pedra-ai-pedra-mcp",
+      "name": "pedra-ai/pedra-mcp",
+      "description": "AI photo and video editing for real-estate listings via the Pedra API: virtual staging, renovation, room emptying, photo enhancement, sky replacement, object removal/blur, and property video generation.",
+      "source": "https://github.com/pedra-ai/pedra-mcp",
+      "installUrl": "npx -y @pedra-ai/mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -2575,6 +2743,20 @@
       "description": "49-tool MCP server for AI control of Android devices and iOS simulators. AI visual analysis (Claude + Gemini), Flutter widget tree inspection, smart element finding (<1ms), video recording, and test script generation.",
       "source": "https://github.com/saranshbamania/mobile-device-mcp",
       "installUrl": "npx -y mobile-device-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "sarefe12-sudo-visibilityradar-mcp",
+      "name": "sarefe12-sudo/visibilityradar-mcp",
+      "description": "Analyze how AI models (Claude, GPT-4o, Gemini, Perplexity, Grok, DeepSeek) see your brand. Returns AI Visibility Score, per-model breakdowns, sentiment analysis, competitor comparison, and top recommendations. Results saved to dashboard automatically.",
+      "source": "https://github.com/sarefe12-sudo/visibilityradar-mcp",
+      "installUrl": "npx -y visibilityradar-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -3235,6 +3417,20 @@
       "description": "Decision intelligence MCP server with 19 algorithms (bandits, Monte Carlo, constraint optimization, forecasting, anomaly detection, risk analysis, graph algorithms), 28 MCP tools. Install via",
       "source": "https://github.com/Whatsonyourmind/oraclaw",
       "installUrl": "npx -y @oraclaw/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "wkalidev-multichain-mcp",
+      "name": "wkalidev/multichain-mcp",
+      "description": "Read balances/prices and prepare transfers across Stacks, Celo, and Base from one MCP server — no RPC keys required to start. Free tier ( , ) plus license-gated Pro/Team tools ( , , ).",
+      "source": "https://github.com/wkalidev/multichain-mcp",
+      "installUrl": "npx -y @wkalidev/multichain-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
