@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-06",
+  "updatedAt": "2026-07-13",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -101,11 +101,39 @@
       "verified": false
     },
     {
+      "id": "ahmetakyurt-zipmem-mcp",
+      "name": "ahmetakyurt/zipmem-mcp",
+      "description": "Local-first long-term memory for terminal AI agents (Claude Code et al.) via Anchored Compacting. Stores blueprints, code anchors (file→line→concept), and distilled lessons in a single JSON under , restoring full cross-session project context at near-zero token cost. No DB, no API keys, no embeddings.",
+      "source": "https://github.com/ahmetakyurt/zipmem-mcp",
+      "installUrl": "npx -y zipmem-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "ai-directory-partners-tooldirectory-mcp",
       "name": "AI-Directory-Partners/tooldirectory-mcp",
       "description": "Search a catalog of 2,000+ AI tools, compare them, find alternatives, and check whether a tool is still active, defunct, or acquired. Hosted remote MCP at or",
       "source": "https://github.com/AI-Directory-Partners/tooldirectory-mcp",
       "installUrl": "npx -y tooldirectory-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "aioproductos-studio-mcp",
+      "name": "AIOProductOS/studio-mcp",
+      "description": "Turns your AI host into a product videographer: scripted screen recordings of your own web app with a visible gliding cursor, camera zooms, highlight callouts, captions, and designed scene transitions, plus marketing-grade screenshots; deterministic dark-frame cleanup and MP4/GIF export. Free and fully local.",
+      "source": "https://github.com/AIOProductOS/studio-mcp",
+      "installUrl": "npx -y @aioproductoscom/mcp-studio",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -704,6 +732,20 @@
       "verified": false
     },
     {
+      "id": "croc100-litescope",
+      "name": "croc100/Litescope",
+      "description": "MCP-first operations toolchain for SQLite, Cloudflare D1, and Turso. Inspect, diff, migrate, monitor, back up, and repair databases over stdio. Read-only by default; writes are opt-in, dry-run first, and auto-snapshot before applying.",
+      "source": "https://github.com/croc100/Litescope",
+      "installUrl": "npx -y litescope mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "cuttalo-depscope",
       "name": "cuttalo/depscope",
       "description": "Package Intelligence for AI agents. 22 tools across 17 ecosystems (npm/pypi/cargo/go/maven/nuget/rubygems/composer/pub/hex/swift/cocoapods/cpan/hackage/cran/conda/homebrew) — check health, vulnerabilities (OSV + CISA KEV + EPSS), typosquats, malicious flags, alternatives, known bugs, breaking changes, stack compatibility and error-to-fix. 31k+ packages, 2.2k+ CVEs enriched. Zero auth, MIT. Remote URL https://mcp.depscope.dev/mcp or stdio",
@@ -1188,6 +1230,20 @@
       "source": "https://github.com/forgemeshlabs/aso-audit-mcp",
       "installUrl": "npx -y @forgemeshlabs/aso-audit-mcp",
       "authType": "env",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "forum-labs-payfetch",
+      "name": "forum-labs/payfetch",
+      "description": "Non-custodial paying-fetch client for agents that pay APIs over HTTP 402 (x402, USDC on Base). The operator sets hard per-call/per-day/per-host spend caps, an approval threshold, and allow/deny lists, with an append-only receipt for every attempt; the agent can't raise its own limits.",
+      "source": "https://github.com/forum-labs/payfetch",
+      "installUrl": "npx -y -p @forum-labs/payfetch payfetch-mcp",
+      "authType": "none",
       "envVars": [],
       "tags": [
         "community"
@@ -2452,6 +2508,20 @@
       "verified": false
     },
     {
+      "id": "paigy-ai-mcp",
+      "name": "paigy-ai/mcp",
+      "description": "Call, text, or push the user's phone when an agent needs input mid-task — reply by voice instead of babysitting a long-running or blocked terminal. Works with any MCP client, not just Claude. Install:",
+      "source": "https://github.com/paigy-ai/mcp",
+      "installUrl": "npx -y @paigy/mcp@latest",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "patchistry-patchistry-mcp-server",
       "name": "patchistry/patchistry-mcp-server",
       "description": "Official MCP server for , the first DTC fashion brand listed in the official MCP Registry. AI agent commerce tools for the velcro-patch hat system: , , , , and . Helps ChatGPT, Claude, Cursor, and Perplexity recommend complete hat + patch builds when shoppers ask about custom hats, bachelorette gifts, dad gifts, or 4th of July drops. Install via",
@@ -3111,6 +3181,20 @@
       "needsReview": true
     },
     {
+      "id": "sunrisesillneversee-sigrank-mcp",
+      "name": "SunrisesIllNeverSee/sigrank-mcp",
+      "description": "Operator leaderboard measuring users, not models — ranks AI coding operators by token cascade efficiency (Yield = Cache Reads × Output / Input²). 15 MCP tools: rank, pull, submit (ed25519-signed), diagnose, simulate. Privacy-first: only token counts leave the machine.",
+      "source": "https://github.com/SunrisesIllNeverSee/sigrank-mcp",
+      "installUrl": "npx -y sigrank",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "supabase",
       "name": "Supabase",
       "description": "Query Supabase tables and manage your project",
@@ -3445,6 +3529,20 @@
       "description": "Local OCR and image analysis via Apple Vision Framework. Wraps macOS's native Vision API to expose OCR for images and PDFs (with reading-order paragraphs, bounding boxes, line/paragraph IDs, and confidence), face / barcode / QR / document-corner detection, and image classification — all as MCP tools any client (Claude Code, Claude Desktop, Cursor, Codex CLI) can call. ~97% token savings vs sending raw images. Fully offline, no API keys, files never leave the Mac. One-line install:",
       "source": "https://github.com/woladi/macos-vision-mcp",
       "installUrl": "npx -y macos-vision-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "xavierfabregat-spotify-mcp",
+      "name": "XavierFabregat/spotify-mcp",
+      "description": "Conversational Spotify control with intent-shaped tools: play by description, queue, devices, playlists, and library, plus a 2-minute PKCE setup wizard. Built for the post-Feb-2026 Spotify Web API.",
+      "source": "https://github.com/XavierFabregat/spotify-mcp",
+      "installUrl": "npx -y @xavifabregat/spotify-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
