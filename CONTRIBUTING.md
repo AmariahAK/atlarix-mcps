@@ -32,7 +32,7 @@ For hosted MCP servers that users sign in to (no API key to paste), set `authTyp
     "supportsDynamicRegistration": true         // optional, defaults to true
   },
   "envVars": [],
-  "tier": "workforce"
+  "tier": "pro"
 }
 ```
 

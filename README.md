@@ -51,18 +51,18 @@ Apache License 2.0 — see [LICENSE](./LICENSE).
 
 ## Related Work
 
-atlarix-mcps is part of the broader Atlarix ecosystem. The context management system that Blueprint and MCP tools operate within is documented in a published technical paper:
+atlarix-mcps is part of the broader Atlarix ecosystem. The research behind Atlarix's context-management design is documented in a published technical paper:
 
 **Blueprint: Section-Scoped Structural Graph Retrieval and Post-Turn Compression for Agentic LLM Coding in Multi-Repository Workspaces**  
 Amariah Kamau, NorahLabs — May 2026  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20381860.svg)](https://doi.org/10.5281/zenodo.20381860)
 
-The paper describes how Blueprint's section-scoped graph interacts with the tool layer — including how MCP tool results are handled in post-turn summarisation.
+The paper studies section-scoped structural-graph retrieval and post-turn tool-result summarisation — including how tool results (MCP tools among them) are compressed to keep agent history small. It's foundational research; the shipping app now uses bundled ripgrep for retrieval.
 
 Atlarix's harness is benchmarked too: [**atlarix.dev/benchmark**](https://atlarix.dev/benchmark) is the official, continually-updated home for every Atlarix benchmark — Terminal-Bench and beyond — with raw result files and full reproduction steps.
 
 ## Related repos
 
-- **[atlarix-skills](https://github.com/AmariahAK/atlarix-skills)** — Apache-2.0 skill registry for Settings → Skills (**Pro / Workforce**).
+- **[atlarix-skills](https://github.com/AmariahAK/atlarix-skills)** — Apache-2.0 skill registry for Settings → Skills (**Pro**).
 - **[atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** — published desktop installers and update manifests.
 - **[AmariahAK/Atlarix](https://github.com/AmariahAK/Atlarix)** — application source (proprietary); product site [atlarix.dev](https://atlarix.dev).
