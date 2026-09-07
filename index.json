@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-07",
   "mcps": [
     {
       "id": "06ketan-slideshot",
@@ -1051,6 +1051,20 @@
       "verified": false
     },
     {
+      "id": "changchinfu-mcp-gauge",
+      "name": "CHANGCHINFU/mcp-gauge",
+      "description": "Verifiable data signals for AI agents across environment (river/flood, air quality, drought), agriculture (USDM drought, crop VHI), power grid (demand, renewables, energy inflation), shipping (route disruption, AIS throughput) and SEC filings (8-K events, insider Form 4) — pay per call in USDC on Base via x402, no API key. Official sources (USGS/NOAA/ERA5/FRED/SEC EDGAR) + record_hash provenance.",
+      "source": "https://github.com/CHANGCHINFU/mcp-gauge",
+      "installUrl": "npx -y mcp-gauge-x402",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "chasdaddy-basescope",
       "name": "chasdaddy/basescope",
       "description": "The read-only safety layer for onchain AI agents. 13 read-only tools on Base + EVM: token/contract safety (honeypot & rug-pull checks cross-referenced across GoPlus + honeypot.is), risky-approval detection, verified-source lookup, balances, ENS + Basenames, gas, and prices. No private keys, no required API keys.",
@@ -1367,6 +1381,20 @@
       "description": "Package Intelligence for AI agents. 22 tools across 17 ecosystems (npm/pypi/cargo/go/maven/nuget/rubygems/composer/pub/hex/swift/cocoapods/cpan/hackage/cran/conda/homebrew) — check health, vulnerabilities (OSV + CISA KEV + EPSS), typosquats, malicious flags, alternatives, known bugs, breaking changes, stack compatibility and error-to-fix. 31k+ packages, 2.2k+ CVEs enriched. Zero auth, MIT. Remote URL https://mcp.depscope.dev/mcp or stdio",
       "source": "https://github.com/cuttalo/depscope",
       "installUrl": "npx -y depscope-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "cydvilla-peckish",
+      "name": "CydVilla/peckish",
+      "description": "Order food on DoorDash: searches stores, compares real fee-included totals from live quotes, builds carts, plus groceries, promos, pickup, reorders and spend history. Placing an order always requires a client elicitation dialog you approve — clients without elicitation can browse and build carts but cannot order (fail closed). Built on DoorDash's official CLI (waitlist-gated, macOS arm64).",
+      "source": "https://github.com/CydVilla/peckish",
+      "installUrl": "npx -y peckish-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -1809,6 +1837,20 @@
       "needsReview": false
     },
     {
+      "id": "extentos-mcp-server",
+      "name": "extentos/mcp-server",
+      "description": "Build smart-glasses apps with AI agents — scaffold, validate, and simulate Meta smart glasses integrations (camera capture, voice, audio) in Android and iOS apps. Runs locally via",
+      "source": "https://github.com/extentos/mcp-server",
+      "installUrl": "npx -y @extentos/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "fabio662-yieldagentx402-sdks",
       "name": "Fabio662/yieldagentx402-sdks",
       "description": "Custody-free, policy-gated, receipt-backed execution layer for AI agents. 16 MCP tools across 18 chains (Base, Ethereum, Bitcoin native, Starknet, NEAR, Solana, Stacks, BNB, Rootstock, Filecoin, Aptos, Sui, TON, Tron, XRPL, Stellar, Algorand). One NEAR MPC key authority signs on EVM and BTC, no private keys held anywhere. ShadeGuard policy enforcement, Intel TDX TEE attestation, HMAC-SHA256 receipts, Filecoin and BTFS anchored. x402 protocol settlement with 0.25 percent protocol fee. Public disc",
@@ -2174,6 +2216,20 @@
       "source": "https://github.com/Goldentrii/AgentRecall",
       "installUrl": "npx -y agent-recall-mcp",
       "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "gonnagetapower-kelvia-mcp",
+      "name": "gonnagetapower/kelvia-mcp",
+      "description": "task manager an agent can fully operate: boards, tasks, sprints, member roles, worklogs and a time-blocking day planner. 58 tools with MCP safety annotations and selectable toolsets. Hosted endpoint with OAuth 2.1 — one command, no token to paste.",
+      "source": "https://github.com/gonnagetapower/kelvia-mcp",
+      "installUrl": "npx -y kelvia-mcp",
+      "authType": "env",
       "envVars": [],
       "tags": [
         "community"
@@ -2835,6 +2891,20 @@
       "verified": false
     },
     {
+      "id": "jeric1223-tossinvest-mcp",
+      "name": "Jeric1223/tossinvest-mcp",
+      "description": "Toss Securities (토스증권) Open API server for Korean and US stocks. Places regular and SINGLE/OCO/OTO conditional orders behind a single-use confirmation token that expires in 60 seconds, plus quotes, orderbook, trades, candles, investor flows, short selling, rankings, holdings, buying power, and FX.",
+      "source": "https://github.com/Jeric1223/tossinvest-mcp",
+      "installUrl": "npx -y @soehd0889/tossinvest-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "jessedu29260-netizen-booboo",
       "name": "jessedu29260-netizen/booboo",
       "description": "See and query your whole AI system as one rooted 3D knowledge graph — agents, memory, knowledge, and automations fused into a privacy-walled snapshot. MCP tools for stats, search, node dossiers, neighbors, and pathfinding; the same snapshot renders up to a million nodes in the browser.",
@@ -3368,6 +3438,20 @@
       "description": "42 local SEO tools for AI assistants. SERP tracking, Google Business Profile data, review monitoring, keyword research, citation audits, geogrid rank scans, AI visibility scoring, and competitive analysis. Install: or connect to the hosted endpoint at",
       "source": "https://github.com/localseodata/mcp-server",
       "installUrl": "npx -y @localseodata/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "logisky-logisheets-mcp",
+      "name": "logisky/logisheets-mcp",
+      "description": "A real Excel-compatible spreadsheet engine for agents, over (Rust, via WASM). Deterministic formulas the model does not compute in its head, named blocks addressed by (block, key, field) instead of coordinates so references survive inserted rows, whole-column field rules, batch scenario scans and goal-seek in a single call, and a genuine at the end. Runs locally and opens no sockets.",
+      "source": "https://github.com/logisky/logisheets-mcp",
+      "installUrl": "npx -y logisheets-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
@@ -4110,6 +4194,20 @@
       "source": "https://github.com/oddunits/pntr-cli",
       "installUrl": "npx -y @pntr/cli",
       "authType": "env",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "om-tajne-pkgdiet",
+      "name": "om-tajne/pkgdiet",
+      "description": "AST-based dependency analyzer that flags unused packages, calculates actual install sizes, and catches unmaintained legacy bloat.",
+      "source": "https://github.com/om-tajne/pkgdiet",
+      "installUrl": "npx -y pkgdiet mcp",
+      "authType": "none",
       "envVars": [],
       "tags": [
         "community"
@@ -5811,6 +5909,20 @@
       "verified": false
     },
     {
+      "id": "trendtweekers-mintpdf",
+      "name": "TrendTweekers/mintpdf",
+      "description": "Converts HTML or Markdown into a styled PDF, or renders a public URL to PDF, and returns a download link. Markdown gets a default stylesheet so agent-written documents look right without design work. Free tier needs no signup. Install:",
+      "source": "https://github.com/TrendTweekers/mintpdf",
+      "installUrl": "npx -y mintpdf-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "true402-mcp-server",
       "name": "true402/mcp-server",
       "description": "Pay-per-call AI + web + on-chain tools for agents over x402 (USDC on Base) — no accounts, no API keys; the wallet is the identity. 11 tools incl. token rug/honeypot safety (0–100 score, risk band, buy/sell simulation), new-pairs / liquidity-pull / whale-swap signals, SEO/GEO audit, web extract, link preview, robots & security-headers checks, and LLM inference. Tools auto-discover from the live catalog.",
@@ -6091,6 +6203,20 @@
       "description": "Deterministic axe-core accessibility scanning (WCAG 2.1 AA, EN 301 549, PDF/UA) through a account: scan any public URL or PDF, crawl a whole registered site, replay saved multi-step journeys, and read violation trends. Returns structured findings — rule, severity counts and the success criteria involved — so the assistant reasons over real results rather than guessing from markup. Every scan result carries an automated-coverage disclaimer instead of a score or a pass/fail verdict. Hosted at , or",
       "source": "https://github.com/WCAG-Compliance/wcagc-mcp",
       "installUrl": "npx -y @wcagc/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "whalecupl-ai-daily-insights-mcp",
+      "name": "WhaleCupl/ai-daily-insights-mcp",
+      "description": "Structured access to AI Daily Insights (aidailyinsights.cn), a Chinese daily AI-industry briefing built for agents. List, fetch and full-text search daily AI news as structured items — 6 tools ( , , , , , ), no API key. Install via",
+      "source": "https://github.com/WhaleCupl/ai-daily-insights-mcp",
+      "installUrl": "npx -y ai-daily-insights-mcp",
       "authType": "none",
       "envVars": [],
       "tags": [
