@@ -63,6 +63,6 @@ Atlarix's harness is benchmarked too: [**atlarix.dev/benchmark**](https://atlari
 
 ## Related repos
 
-- **[atlarix-skills](https://github.com/AmariahAK/atlarix-skills)** — Apache-2.0 skill registry for Settings → Skills (**Pro**).
+- **[atlarix-skills](https://github.com/AmariahAK/atlarix-skills)** — archived Apache-2.0 skill registry. The in-app registry browser was removed in v14.45.0; skills are now markdown files in `.atlarix/skills/`, committed with your own project. Nothing here is plan-gated — no feature of Atlarix is.
 - **[atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** — published desktop installers and update manifests.
 - **[AmariahAK/Atlarix](https://github.com/AmariahAK/Atlarix)** — application source (proprietary); product site [atlarix.dev](https://atlarix.dev).
