@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-12",
   "mcps": [
     {
       "id": "aws-kb-retrieval-server",
@@ -32,6 +32,20 @@
       "verified": true,
       "needsReview": false,
       "icon": "aws"
+    },
+    {
+      "id": "bourhaouta-vscode-tailwindshades",
+      "name": "bourhaouta/vscode-tailwindshades",
+      "description": "Tailwind CSS palettes (50–950) from any color for Tailwind v4, v3, v2 and v1, computed in OKLCH, plus the closest Tailwind color to any color. Run it with or use the hosted endpoint.",
+      "source": "https://github.com/bourhaouta/vscode-tailwindshades",
+      "installUrl": "npx -y tailwindshades-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "brave-search",
@@ -105,6 +119,34 @@
       "needsReview": true
     },
     {
+      "id": "dockndevai-mcp-grafana",
+      "name": "dockndevai/mcp-grafana",
+      "description": "Safe-by-default MCP server for Grafana: search & read dashboards and the dashboard JSON model, query datasources (Prometheus/Loki/SQL via the unified query API), and inspect alert rules & annotations; in higher modes, create/update dashboards and folders, write annotations, and delete. Read-only by default with access modes, folder/datasource allowlists, and human confirmation (MCP elicitation) on deletes.",
+      "source": "https://github.com/dockndevai/mcp-grafana",
+      "installUrl": "npx -y @dockndevai/mcp-grafana",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "dockndevai-mcp-keycloak",
+      "name": "dockndevai/mcp-keycloak",
+      "description": "Keycloak multi-realm admin (users, clients, roles, groups) — safe-by-default access modes, realm allowlists, protected realms, delete gating, dry-run, and audit logging.",
+      "source": "https://github.com/dockndevai/mcp-keycloak",
+      "installUrl": "npx -y @dockndevai/mcp-keycloak",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "everart",
       "name": "Server Everart",
       "description": "MCP server for EverArt API integration",
@@ -129,6 +171,20 @@
       "needsReview": false
     },
     {
+      "id": "fenbs-ai-fenbs-mcp",
+      "name": "fenbs-ai/fenbs-mcp",
+      "description": "fenbs project board where people and AI assistants are members with roles: tasks, decisions with sign-off, testing notes and project rules, every change signed. Remote server at https://fenbs.ai/api/mcp or",
+      "source": "https://github.com/fenbs-ai/fenbs-mcp",
+      "installUrl": "npx -y fenbs-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "filesystem",
       "name": "Filesystem",
       "description": "Read and write files on your local machine",
@@ -144,6 +200,20 @@
       "verified": true,
       "needsReview": false,
       "icon": "folder"
+    },
+    {
+      "id": "forgemeshlabs-aso-score-mcp",
+      "name": "forgemeshlabs/aso-score-mcp",
+      "description": "Free ASO Score (Agent Signal Optimization) scanner scoring discovery, identity, trust, commerce, reputation, and memory signals, with maturity levels, evidence, and prioritized fix plans. Local stdio, no API key required.",
+      "source": "https://github.com/forgemeshlabs/aso-score-mcp",
+      "installUrl": "npx -y @forgemeshlabs/aso-score-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "gdrive",
@@ -248,6 +318,34 @@
       "needsReview": true
     },
     {
+      "id": "kyrzin-kybase",
+      "name": "Kyrzin/kybase",
+      "description": "Self-hosted Markdown knowledge base that doubles as persistent memory for AI agents: a notes app you browse and edit (wikilinks, backlinks, graph), 18 MCP tools over Streamable HTTP with OAuth (works as a claude.ai connector) or stdio. Hybrid search (Postgres full-text + pgvector, RRF, optional reranker) with section-level reads and conflict-safe appends.",
+      "source": "https://github.com/Kyrzin/kybase",
+      "installUrl": "npx -y kybase-mcp",
+      "authType": "env",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "lexmount-artifact-site",
+      "name": "lexmount/artifact-site",
+      "description": "One place for every AI agent's pages and docs: publish HTML, build folders, ZIPs and PDFs as sandboxed, versioned share links, then search, read and update them. Hosted or self-hosted; remote MCP with OAuth, or local via",
+      "source": "https://github.com/lexmount/artifact-site",
+      "installUrl": "npx -y @artifact-site/cli mcp",
+      "authType": "env",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "linear",
       "name": "Linear",
       "description": "Read and create issues in Linear",
@@ -314,6 +412,34 @@
       "icon": "brain"
     },
     {
+      "id": "ni-c-healthchecks-mcp",
+      "name": "ni-c/healthchecks-mcp",
+      "description": "Healthchecks cron and uptime monitoring: see which scheduled jobs are late or down, read the output a failing job reported with its ping, and create, pause or adjust checks. Works against healthchecks.io or a self-hosted instance.",
+      "source": "https://github.com/ni-c/healthchecks-mcp",
+      "installUrl": "npx -y healthchecks-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
+      "id": "ni-c-opengist-mcp",
+      "name": "ni-c/opengist-mcp",
+      "description": "Read, search, create, update and delete gists on your own instance — the self-hosted pastebin powered by Git. File contents and revisions, commit history, forks and likes. Bounded results, untrusted-content markers, and a server-issued confirmation token on everything that deletes or publishes.",
+      "source": "https://github.com/ni-c/opengist-mcp",
+      "installUrl": "npx -y opengist-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "notion",
       "name": "Notion",
       "description": "Read and write Notion pages and databases",
@@ -336,6 +462,20 @@
       "tier": "free",
       "verified": false,
       "needsReview": false
+    },
+    {
+      "id": "pattrickchenforclaudeuse-mythsensus-mcp",
+      "name": "PattrickChenforclaudeuse/mythsensus-mcp",
+      "description": "Synthesizes 26 ancient divination systems (BaZi, Vedic Jyotish, Western, Nine Star Ki, Thai Seven Number, Mayan, Norse Runes, Human Design and 18 more) into a single consensus Cosmic Score showing where the traditions agree vs contradict. Deterministic (no LLM in the math), fully local — no birth data leaves the process. Official MCP for mythsensus.com. Install:",
+      "source": "https://github.com/PattrickChenforclaudeuse/mythsensus-mcp",
+      "installUrl": "npx -y mythsensus-mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "postgres",
@@ -400,6 +540,20 @@
       "icon": "database"
     },
     {
+      "id": "saxonnicholls-super-log",
+      "name": "saxonnicholls/super-log",
+      "description": "Read-only access to a local dev bench that interleaves every log stream on one timeline: tail and search live streams, search the on-disk journal, wait for an event, and read per-topic guides for unfamiliar topics. No API key, no daemon of its own,",
+      "source": "https://github.com/saxonnicholls/super-log",
+      "installUrl": "npx -y @super-log/mcp",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
+    },
+    {
       "id": "sentry",
       "name": "Sentry",
       "description": "Read Sentry errors, issues, and event details",
@@ -423,6 +577,20 @@
         "errors"
       ],
       "tier": "free"
+    },
+    {
+      "id": "seocombat-clipwright-mcp",
+      "name": "seocombat/clipwright-mcp",
+      "description": "Make UGC-style video ads without filming: tell your AI assistant what to say and get a vertical clip of a realistic actor saying it, ready for TikTok, Reels or Shorts. Pick or describe an actor, choose a voice from samples, and see the price before rendering. It also makes faceless videos from a script or a short brief.",
+      "source": "https://github.com/seocombat/clipwright-mcp",
+      "installUrl": "npx -y @clipwright/mcp-server",
+      "authType": "none",
+      "envVars": [],
+      "tags": [
+        "community"
+      ],
+      "needsReview": true,
+      "verified": false
     },
     {
       "id": "sequentialthinking",
