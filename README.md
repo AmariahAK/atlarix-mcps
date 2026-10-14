@@ -1,5 +1,10 @@
 # atlarix-mcps
 
+> **Archived (2026-10-15).** Since Atlarix 15.7.0 the MCP marketplace is the
+> [official MCP Registry](https://registry.modelcontextprotocol.io), searched on your computer
+> from a copy Atlarix keeps in sync. This repo is read-only; `index.json` stays where it is for
+> Atlarix 15.6 and earlier, and is no longer updated.
+
 Public MCP registry for the [Atlarix](https://github.com/AmariahAK/Atlarix) MCP marketplace. This repo does **not** ship server code; it publishes a single JSON index Atlarix fetches over HTTPS.
 
 ## Consumed URL (Atlarix default)
